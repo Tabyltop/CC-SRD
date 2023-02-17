@@ -22,6 +22,8 @@
                 "wis": "15",
                 "cha": "18"
             },
+            "saving_throws": "Con +6, Int +8, Wis +6",
+            "skills": "History +12, Perception +10",
             "abilities": [
                 {
                     "name": "Amphibious.",
@@ -76,7 +78,8 @@
                     "description": "One creature charmed by the aboleth takes 10 (3d6) psychic damage, and the aboleth regains hit points equal to the damage the creature takes."
                 }
             ],
-            "challenge": "10 (5,900 XP)"
+            "challenge": "10 (5,900 XP)",
+            "senses": "darkvision 120 ft., passive Perception 20"
         },
         {
             "name": "Deva",
@@ -94,6 +97,8 @@
                 "wis": "20",
                 "cha": "20"
             },
+            "saving_throws": "Wis +9, Cha +9",
+            "skills": "Insight +9, Perception +9",
             "abilities": [
                 {
                     "name": "Angelic Weapons.",
@@ -134,7 +139,8 @@
             ],
             "challenge": "10 (5,900 XP)",
             "damage_resistances": "radiant; bludgeoning, piercing, and slashing from nonmagical attacks",
-            "condition_immunities": "charmed, exhaustion, frightened"
+            "condition_immunities": "charmed, exhaustion, frightened",
+            "senses": "darkvision 120 ft., passive Perception 19"
         },
         {
             "name": "Planetar",
@@ -152,6 +158,8 @@
                 "wis": "22",
                 "cha": "25"
             },
+            "saving_throws": "Con +12, Wis +11, Cha +12",
+            "skills": "Perception +11",
             "abilities": [
                 {
                     "name": "Angelic Weapons.",
@@ -192,7 +200,8 @@
             ],
             "challenge": "16 (15,000 XP)",
             "damage_resistances": "radiant; bludgeoning, piercing, and slashing from nonmagical attacks",
-            "condition_immunities": "charmed, exhaustion, frightened"
+            "condition_immunities": "charmed, exhaustion, frightened",
+            "senses": "truesight 120 ft., passive Perception 21"
         },
         {
             "name": "Solar",
@@ -210,6 +219,8 @@
                 "wis": "25",
                 "cha": "30"
             },
+            "saving_throws": "Int +14, Wis +14, Cha +17",
+            "skills": "Perception +14",
             "abilities": [
                 {
                     "name": "Angelic Weapons.",
@@ -284,7 +295,8 @@
             "challenge": "21 (33,000 XP)",
             "damage_resistances": "radiant; bludgeoning, piercing, and slashing from nonmagical attacks",
             "damage_immunities": "necrotic, poison",
-            "condition_immunities": "charmed, exhaustion, frightened, poisoned"
+            "condition_immunities": "charmed, exhaustion, frightened, poisoned",
+            "senses": "truesight 120 ft., passive Perception 24"
         },
         {
             "name": "Animated Armor",
@@ -328,7 +340,8 @@
             ],
             "challenge": "1 (200 XP)",
             "damage_immunities": "poison, psychic",
-            "condition_immunities": "blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned"
+            "condition_immunities": "blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned",
+            "senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 6"
         },
         {
             "name": "Flying Sword",
@@ -346,6 +359,7 @@
                 "wis": "5",
                 "cha": "1"
             },
+            "saving_throws": "Dex +4",
             "abilities": [
                 {
                     "name": "Antimagic Susceptibility.",
@@ -368,7 +382,8 @@
             ],
             "challenge": "1/4 (50 XP)",
             "damage_immunities": "poison, psychic",
-            "condition_immunities": "blinded, charmed, deafened, frightened, paralyzed, petrified, poisoned"
+            "condition_immunities": "blinded, charmed, deafened, frightened, paralyzed, petrified, poisoned",
+            "senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 7"
         },
         {
             "name": "Rug of Smothering",
@@ -410,7 +425,8 @@
             ],
             "challenge": "2 (450 XP)",
             "damage_immunities": "poison, psychic",
-            "condition_immunities": "blinded, charmed, deafened, frightened, paralyzed, petrified, poisoned"
+            "condition_immunities": "blinded, charmed, deafened, frightened, paralyzed, petrified, poisoned",
+            "senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 6"
         },
         {
             "name": "Ankheg",
@@ -439,7 +455,8 @@
                 }
             ],
             "actions": [],
-            "challenge": "2 (450 XP)"
+            "challenge": "2 (450 XP)",
+            "senses": "darkvision 60 ft., tremorsense 60 ft., passive Perception 11"
         },
         {
             "name": "Azer",
@@ -457,6 +474,7 @@
                 "wis": "13",
                 "cha": "10"
             },
+            "saving_throws": "Con +4",
             "abilities": [
                 {
                     "name": "Heated Body.",
@@ -483,7 +501,8 @@
             ],
             "challenge": "2 (450 XP)",
             "damage_immunities": "fire, poison",
-            "condition_immunities": "poisoned"
+            "condition_immunities": "poisoned",
+            "senses": "passive Perception 11"
         },
         {
             "name": "Basilisk",
@@ -517,7 +536,8 @@
                     "reach": "5 ft."
                 }
             ],
-            "challenge": "3 (700 XP)"
+            "challenge": "3 (700 XP)",
+            "senses": "darkvision 60 ft., passive Perception 9"
         },
         {
             "name": "Behir",
@@ -535,6 +555,7 @@
                 "wis": "14",
                 "cha": "12"
             },
+            "skills": "Perception +6, Stealth +7",
             "abilities": [],
             "actions": [
                 {
@@ -573,7 +594,8 @@
                 }
             ],
             "challenge": "11 (7,200 XP)",
-            "damage_immunities": "lightning"
+            "damage_immunities": "lightning",
+            "senses": "darkvision 90 ft., passive Perception 16"
         },
         {
             "name": "Bugbear",
@@ -591,6 +613,7 @@
                 "wis": "11",
                 "cha": "9"
             },
+            "skills": "Stealth +6, Survival +2",
             "abilities": [
                 {
                     "name": "Brute.",
@@ -618,7 +641,8 @@
                     "reach": "5 ft."
                 }
             ],
-            "challenge": "1 (200 XP)"
+            "challenge": "1 (200 XP)",
+            "senses": "darkvision 60 ft., passive Perception 10"
         },
         {
             "name": "Bulette",
@@ -636,6 +660,7 @@
                 "wis": "10",
                 "cha": "5"
             },
+            "skills": "Perception +6",
             "abilities": [
                 {
                     "name": "Standing Leap.",
@@ -658,7 +683,8 @@
                     "extra_damage_dice": "3d6 + 4"
                 }
             ],
-            "challenge": "5 (1,800 XP)"
+            "challenge": "5 (1,800 XP)",
+            "senses": "darkvision 60 ft., tremorsense 60 ft., passive Perception 16"
         },
         {
             "name": "Centaur",
@@ -676,6 +702,7 @@
                 "wis": "13",
                 "cha": "11"
             },
+            "skills": "Athletics +6, Perception +3, Survival +3",
             "abilities": [
                 {
                     "name": "Charge.",
@@ -712,7 +739,8 @@
                     "range": "150/600 ft."
                 }
             ],
-            "challenge": "2 (450 XP)"
+            "challenge": "2 (450 XP)",
+            "senses": "passive Perception 13"
         },
         {
             "name": "Chimera",
@@ -730,6 +758,7 @@
                 "wis": "14",
                 "cha": "10"
             },
+            "skills": "Perception +8",
             "abilities": [],
             "actions": [
                 {
@@ -768,7 +797,8 @@
                     "saving_throw": "DC 15 Dexterity"
                 }
             ],
-            "challenge": "6 (2,300 XP)"
+            "challenge": "6 (2,300 XP)",
+            "senses": "darkvision 60 ft., passive Perception 18"
         },
         {
             "name": "Chuul",
@@ -786,6 +816,7 @@
                 "wis": "11",
                 "cha": "5"
             },
+            "skills": "Perception +4",
             "abilities": [
                 {
                     "name": "Amphibious.",
@@ -817,7 +848,8 @@
             ],
             "challenge": "4 (1,100 XP)",
             "damage_immunities": "poison",
-            "condition_immunities": "poisoned"
+            "condition_immunities": "poisoned",
+            "senses": "darkvision 60 ft., passive Perception 14"
         },
         {
             "name": "Cloaker",
@@ -835,6 +867,7 @@
                 "wis": "12",
                 "cha": "14"
             },
+            "skills": "Stealth +5",
             "abilities": [
                 {
                     "name": "Damage Transfer.",
@@ -880,7 +913,8 @@
                     "description": "The cloaker magically creates three illusory duplicates of itself if it isn\u2019t in bright light. The duplicates move with it and mimic its actions, shifting position so as to make it impossible to track which cloaker is the real one. If the cloaker is ever in an area of bright light, the duplicates disappear. Whenever any creature targets the cloaker with an attack or a harmful spell while a duplicate remains, that creature rolls randomly to determine whether it targets the cloaker or one of the duplicates. A creature is unaffected by this magical effect if it can\u2019t see or if it relies on senses other than sight. A duplicate has the cloaker\u2019s AC and uses its saving throws. If an attack hits a duplicate, or if a duplicate fails a saving throw against an effect that deals damage, the duplicate disappears."
                 }
             ],
-            "challenge": "8 (3,900 XP)"
+            "challenge": "8 (3,900 XP)",
+            "senses": "darkvision 60 ft., passive Perception 11"
         },
         {
             "name": "Cockatrice",
@@ -910,7 +944,8 @@
                     "saving_throw": "DC 11 Constitution"
                 }
             ],
-            "challenge": "1/2 (100 XP)"
+            "challenge": "1/2 (100 XP)",
+            "senses": "darkvision 60 ft., passive Perception 11"
         },
         {
             "name": "Couatl",
@@ -928,6 +963,7 @@
                 "wis": "20",
                 "cha": "18"
             },
+            "saving_throws": "Con +5, Wis +7, Cha +6",
             "abilities": [
                 {
                     "name": "Innate Spellcasting.",
@@ -967,7 +1003,8 @@
             ],
             "challenge": "4 (1,100 XP)",
             "damage_resistances": "radiant",
-            "damage_immunities": "psychic; bludgeoning, piercing, and slashing from nonmagical attacks"
+            "damage_immunities": "psychic; bludgeoning, piercing, and slashing from nonmagical attacks",
+            "senses": "truesight 120 ft., passive Perception 15"
         },
         {
             "name": "Darkmantle",
@@ -985,6 +1022,7 @@
                 "wis": "10",
                 "cha": "5"
             },
+            "skills": "Stealth +3",
             "abilities": [
                 {
                     "name": "Echolocation.",
@@ -1009,7 +1047,8 @@
                     "description": "A 15--foot radius of magical darkness extends out from the darkmantle, moves with it, and spreads around corners. The darkness lasts as long as the darkmantle maintains concentration, up to 10 minutes (as if concentrating on a spell). Darkvision can\u2019t penetrate this darkness, and no natural light can illuminate it. If any of the darkness overlaps with an area of light created by a spell of 2nd level or lower, the spell creating the light is dispelled."
                 }
             ],
-            "challenge": "1/2 (100 XP)"
+            "challenge": "1/2 (100 XP)",
+            "senses": "blindsight 60 ft., passive Perception 10"
         },
         {
             "name": "Balor",
@@ -1027,6 +1066,7 @@
                 "wis": "16",
                 "cha": "22"
             },
+            "saving_throws": "Str +14, Con +12, Wis +9, Cha +12",
             "abilities": [
                 {
                     "name": "Death Throes.",
@@ -1079,7 +1119,8 @@
             "challenge": "19 (22,000 XP)",
             "damage_resistances": "cold, lightning; bludgeoning, piercing, and slashing from nonmagical attacks",
             "damage_immunities": "fire, poison",
-            "condition_immunities": "poisoned"
+            "condition_immunities": "poisoned",
+            "senses": "truesight 120 ft., passive Perception 13"
         },
         {
             "name": "Dretch",
@@ -1128,7 +1169,8 @@
             "challenge": "1/4 (50 XP)",
             "damage_resistances": "cold, fire, lightning",
             "damage_immunities": "poison",
-            "condition_immunities": "poisoned"
+            "condition_immunities": "poisoned",
+            "senses": "darkvision 60 ft., passive Perception 9"
         },
         {
             "name": "Glabrezu",
@@ -1146,6 +1188,7 @@
                 "wis": "17",
                 "cha": "16"
             },
+            "saving_throws": "Str +9, Con +9, Wis +7, Cha +7",
             "abilities": [
                 {
                     "name": "Innate Spellcasting.",
@@ -1181,7 +1224,8 @@
             "challenge": "9 (5,000 XP)",
             "damage_resistances": "cold, fire, lightning; bludgeoning, piercing, and slashing from nonmagical attacks",
             "damage_immunities": "poison",
-            "condition_immunities": "poisoned"
+            "condition_immunities": "poisoned",
+            "senses": "truesight 120 ft., passive Perception 13"
         },
         {
             "name": "Hezrou",
@@ -1199,6 +1243,7 @@
                 "wis": "12",
                 "cha": "13"
             },
+            "saving_throws": "Str +7, Con +8, Wis +4",
             "abilities": [
                 {
                     "name": "Magic Resistance.",
@@ -1225,7 +1270,8 @@
             "challenge": "8 (3,900 XP)",
             "damage_resistances": "cold, fire, lightning; bludgeoning, piercing, and slashing from nonmagical attacks",
             "damage_immunities": "poison",
-            "condition_immunities": "poisoned"
+            "condition_immunities": "poisoned",
+            "senses": "darkvision 120 ft., passive Perception 11"
         },
         {
             "name": "Marilith",
@@ -1243,6 +1289,7 @@
                 "wis": "16",
                 "cha": "20"
             },
+            "saving_throws": "Str +9, Con +10, Wis +8, Cha +10",
             "abilities": [
                 {
                     "name": "Magic Resistance.",
@@ -1290,7 +1337,8 @@
             "challenge": "16 (15,000 XP)",
             "damage_resistances": "cold, fire, lightning; bludgeoning, piercing, and slashing from nonmagical attacks",
             "damage_immunities": "poison",
-            "condition_immunities": "poisoned"
+            "condition_immunities": "poisoned",
+            "senses": "truesight 120 ft., passive Perception 13"
         },
         {
             "name": "Nalfeshnee",
@@ -1308,6 +1356,7 @@
                 "wis": "12",
                 "cha": "15"
             },
+            "saving_throws": "Con +11, Int +9, Wis +6, Cha +7",
             "abilities": [
                 {
                     "name": "Magic Resistance.",
@@ -1348,7 +1397,8 @@
             "challenge": "13 (10,000 XP)",
             "damage_resistances": "cold, fire, lightning; bludgeoning, piercing, and slashing from nonmagical attacks",
             "damage_immunities": "poison",
-            "condition_immunities": "poisoned"
+            "condition_immunities": "poisoned",
+            "senses": "truesight 120 ft., passive Perception 11"
         },
         {
             "name": "Quasit",
@@ -1366,6 +1416,7 @@
                 "wis": "10",
                 "cha": "10"
             },
+            "skills": "Stealth +5",
             "abilities": [
                 {
                     "name": "Shapechanger.",
@@ -1399,7 +1450,8 @@
             "challenge": "1 (200 XP)",
             "damage_resistances": "cold, fire, lightning; bludgeoning, piercing, and slashing from nonmagical attacks",
             "damage_immunities": "poison",
-            "condition_immunities": "poisoned"
+            "condition_immunities": "poisoned",
+            "senses": "darkvision 120 ft., passive Perception 10"
         },
         {
             "name": "Vrock",
@@ -1417,6 +1469,7 @@
                 "wis": "13",
                 "cha": "8"
             },
+            "saving_throws": "Dex +5, Wis +4, Cha +2",
             "abilities": [
                 {
                     "name": "Magic",
@@ -1462,7 +1515,8 @@
             "challenge": "6 (2,300 XP)",
             "damage_resistances": "cold, fire, lightning; bludgeoning, piercing, and slashing from nonmagical attacks",
             "damage_immunities": "poison",
-            "condition_immunities": "poisoned"
+            "condition_immunities": "poisoned",
+            "senses": "darkvision 120 ft., passive Perception 11"
         },
         {
             "name": "Barbed Devil",
@@ -1480,6 +1534,8 @@
                 "wis": "14",
                 "cha": "14"
             },
+            "saving_throws": "Str +6, Con +7, Wis +5, Cha +5",
+            "skills": "Deception +5, Insight +5, Perception +8",
             "abilities": [
                 {
                     "name": "Barbed Hide.",
@@ -1526,7 +1582,8 @@
             "challenge": "5 (1,800 XP)",
             "damage_resistances": "cold; bludgeoning, piercing, and slashing from nonmagical attacks that aren\u2019t silvered",
             "damage_immunities": "fire, poison",
-            "condition_immunities": "poisoned"
+            "condition_immunities": "poisoned",
+            "senses": "darkvision 120 ft., passive Perception 18"
         },
         {
             "name": "Bearded Devil",
@@ -1544,6 +1601,7 @@
                 "wis": "11",
                 "cha": "11"
             },
+            "saving_throws": "Str +5, Con +4, Wis +2",
             "abilities": [
                 {
                     "name": "Devil\u2019s Sight.",
@@ -1585,7 +1643,8 @@
             "challenge": "3 (700 XP)",
             "damage_resistances": "cold; bludgeoning, piercing, and slashing from nonmagical attacks that aren\u2019t silvered",
             "damage_immunities": "fire, poison",
-            "condition_immunities": "poisoned"
+            "condition_immunities": "poisoned",
+            "senses": "darkvision 120 ft., passive Perception 10"
         },
         {
             "name": "Bone Devil",
@@ -1603,6 +1662,8 @@
                 "wis": "14",
                 "cha": "16"
             },
+            "saving_throws": "Int +5, Wis +6, Cha +7",
+            "skills": "Deception +7, Insight +6",
             "abilities": [
                 {
                     "name": "Devil\u2019s Sight.",
@@ -1641,7 +1702,8 @@
             "challenge": "9 (5,000 XP)",
             "damage_resistances": "cold; bludgeoning, piercing, and slashing from nonmagical attacks that aren\u2019t silvered",
             "damage_immunities": "fire, poison",
-            "condition_immunities": "poisoned"
+            "condition_immunities": "poisoned",
+            "senses": "darkvision 120 ft., passive Perception 12"
         },
         {
             "name": "Chain Devil",
@@ -1659,6 +1721,7 @@
                 "wis": "12",
                 "cha": "14"
             },
+            "saving_throws": "Con +7, Wis +4, Cha +5",
             "abilities": [
                 {
                     "name": "Devil\u2019s Sight.",
@@ -1695,7 +1758,8 @@
             "challenge": "8 (3,900 XP)",
             "damage_resistances": "cold; bludgeoning, piercing, and slashing from nonmagical attacks that aren\u2019t silvered",
             "damage_immunities": "fire, poison",
-            "condition_immunities": "poisoned"
+            "condition_immunities": "poisoned",
+            "senses": "darkvision 120 ft., passive Perception 11"
         },
         {
             "name": "Erinyes",
@@ -1713,6 +1777,7 @@
                 "wis": "14",
                 "cha": "18"
             },
+            "saving_throws": "Dex +7, Con +8, Wis +6, Cha +8",
             "abilities": [
                 {
                     "name": "Hellish Weapons.",
@@ -1755,7 +1820,8 @@
             "challenge": "12 (8,400 XP)",
             "damage_resistances": "cold; bludgeoning, piercing, and slashing from nonmagical attacks that aren\u2019t silvered",
             "damage_immunities": "fire, poison",
-            "condition_immunities": "poisoned"
+            "condition_immunities": "poisoned",
+            "senses": "truesight 120 ft., passive Perception 12"
         },
         {
             "name": "Horned Devil",
@@ -1773,6 +1839,7 @@
                 "wis": "16",
                 "cha": "17"
             },
+            "saving_throws": "Str +10, Dex +7, Wis +7, Cha +7",
             "abilities": [
                 {
                     "name": "Devil\u2019s Sight.",
@@ -1816,7 +1883,8 @@
             "challenge": "11 (7,200 XP)",
             "damage_resistances": "cold; bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons",
             "damage_immunities": "fire, poison",
-            "condition_immunities": "poisoned"
+            "condition_immunities": "poisoned",
+            "senses": "darkvision 120 ft., passive Perception 13"
         },
         {
             "name": "Ice Devil",
@@ -1834,6 +1902,7 @@
                 "wis": "15",
                 "cha": "18"
             },
+            "saving_throws": "Dex +7, Con +9, Wis +7, Cha +9",
             "abilities": [
                 {
                     "name": "Devil\u2019s Sight.",
@@ -1890,7 +1959,8 @@
             "challenge": "14 (11,500 XP)",
             "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks that aren\u2019t silvered",
             "damage_immunities": "cold, fire, poison",
-            "condition_immunities": "poisoned"
+            "condition_immunities": "poisoned",
+            "senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 12"
         },
         {
             "name": "Imp",
@@ -1908,6 +1978,7 @@
                 "wis": "12",
                 "cha": "14"
             },
+            "skills": "Deception +4, Insight +3, Persuasion +4, Stealth +5",
             "abilities": [
                 {
                     "name": "Shapechanger.",
@@ -1934,7 +2005,8 @@
             "challenge": "1 (200 XP)",
             "damage_resistances": "cold; bludgeoning, piercing, and slashing from nonmagical attacks that aren\u2019t silvered",
             "damage_immunities": "fire, poison",
-            "condition_immunities": "poisoned"
+            "condition_immunities": "poisoned",
+            "senses": "darkvision 120 ft., passive Perception 11"
         },
         {
             "name": "Lemure",
@@ -1975,7 +2047,8 @@
             "challenge": "0 (10 XP)",
             "damage_resistances": "cold",
             "damage_immunities": "fire, poison",
-            "condition_immunities": "charmed, frightened, poisoned"
+            "condition_immunities": "charmed, frightened, poisoned",
+            "senses": "darkvision 120 ft., passive Perception 10"
         },
         {
             "name": "Pit Fiend",
@@ -1993,6 +2066,7 @@
                 "wis": "18",
                 "cha": "24"
             },
+            "saving_throws": "Dex +8, Con +13, Wis +10",
             "abilities": [
                 {
                     "name": "Fear Aura.",
@@ -2055,7 +2129,8 @@
             "challenge": "20 (25,000 XP)",
             "damage_resistances": "cold; bludgeoning, piercing, and slashing from nonmagical attacks that aren\u2019t silvered",
             "damage_immunities": "fire, poison",
-            "condition_immunities": "poisoned"
+            "condition_immunities": "poisoned",
+            "senses": "truesight 120 ft., passive Perception 14"
         },
         {
             "name": "Plesiosaurus",
@@ -2073,6 +2148,7 @@
                 "wis": "12",
                 "cha": "5"
             },
+            "skills": "Perception +3, Stealth +4",
             "abilities": [
                 {
                     "name": "Hold Breath.",
@@ -2089,7 +2165,8 @@
                     "reach": "10 ft."
                 }
             ],
-            "challenge": "2 (450 XP)"
+            "challenge": "2 (450 XP)",
+            "senses": "passive Perception 13"
         },
         {
             "name": "Triceratops",
@@ -2131,7 +2208,8 @@
                     "reach": "5 ft."
                 }
             ],
-            "challenge": "5 (1,800 XP)"
+            "challenge": "5 (1,800 XP)",
+            "senses": "passive Perception 10"
         },
         {
             "name": "Tyrannosaurus Rex",
@@ -2149,6 +2227,7 @@
                 "wis": "12",
                 "cha": "9"
             },
+            "skills": "Perception +4",
             "abilities": [],
             "actions": [
                 {
@@ -2172,7 +2251,8 @@
                     "reach": "10 ft."
                 }
             ],
-            "challenge": "8 (3,900 XP)"
+            "challenge": "8 (3,900 XP)",
+            "senses": "passive Perception 14"
         },
         {
             "name": "Doppelganger",
@@ -2190,6 +2270,7 @@
                 "wis": "12",
                 "cha": "14"
             },
+            "skills": "Deception +6, Insight +3",
             "abilities": [
                 {
                     "name": "Shapechanger.",
@@ -2223,7 +2304,8 @@
                 }
             ],
             "challenge": "3 (700 XP)",
-            "condition_immunities": "charmed"
+            "condition_immunities": "charmed",
+            "senses": "darkvision 60 ft., passive Perception 11"
         },
         {
             "name": "Ancient Black Dragon",
@@ -2241,6 +2323,8 @@
                 "wis": "15",
                 "cha": "19"
             },
+            "saving_throws": "Dex +9, Con +14, Wis +9, Cha +11",
+            "skills": "Perception +16, Stealth +9",
             "abilities": [
                 {
                     "name": "Amphibious.",
@@ -2309,7 +2393,8 @@
                 }
             ],
             "challenge": "21 (33,000 XP)",
-            "damage_immunities": "acid"
+            "damage_immunities": "acid",
+            "senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 26"
         },
         {
             "name": "Adult Black Dragon",
@@ -2327,6 +2412,8 @@
                 "wis": "13",
                 "cha": "17"
             },
+            "saving_throws": "Dex +7, Con +10, Wis +6, Cha +8",
+            "skills": "Perception +11, Stealth +7",
             "abilities": [
                 {
                     "name": "Amphibious.",
@@ -2395,7 +2482,8 @@
                 }
             ],
             "challenge": "14 (11,500 XP)",
-            "damage_immunities": "acid"
+            "damage_immunities": "acid",
+            "senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 21"
         },
         {
             "name": "Young Black Dragon",
@@ -2413,6 +2501,8 @@
                 "wis": "11",
                 "cha": "15"
             },
+            "saving_throws": "Dex +5, Con +6, Wis +3, Cha +5",
+            "skills": "Perception +6, Stealth +5",
             "abilities": [
                 {
                     "name": "Amphibious.",
@@ -2437,7 +2527,8 @@
             ],
             "actions": [],
             "challenge": "7 (2,900 XP)",
-            "damage_immunities": "acid"
+            "damage_immunities": "acid",
+            "senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 16"
         },
         {
             "name": "Black Dragon Wyrmling",
@@ -2455,6 +2546,8 @@
                 "wis": "11",
                 "cha": "13"
             },
+            "saving_throws": "Dex +4, Con +3, Wis +2, Cha +3",
+            "skills": "Perception +4, Stealth +4",
             "abilities": [
                 {
                     "name": "Amphibious.",
@@ -2481,7 +2574,8 @@
                 }
             ],
             "challenge": "2 (450 XP)",
-            "damage_immunities": "acid"
+            "damage_immunities": "acid",
+            "senses": "blindsight 10 ft., darkvision 60 ft., passive Perception 14"
         },
         {
             "name": "Blue Dragon Ancient Blue Dragon",
@@ -2499,6 +2593,8 @@
                 "wis": "17",
                 "cha": "21"
             },
+            "saving_throws": "Dex +7, Con +15, Wis +10, Cha +12",
+            "skills": "Perception +17, Stealth +7",
             "abilities": [
                 {
                     "name": "Legendary Resistance (3/Day).",
@@ -2563,7 +2659,8 @@
                 }
             ],
             "challenge": "23 (50,000 XP)",
-            "damage_immunities": "lightning"
+            "damage_immunities": "lightning",
+            "senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 27"
         },
         {
             "name": "Adult Blue Dragon",
@@ -2581,6 +2678,8 @@
                 "wis": "15",
                 "cha": "19"
             },
+            "saving_throws": "Dex +5, Con +11, Wis +7, Cha +9",
+            "skills": "Perception +12, Stealth +5",
             "abilities": [
                 {
                     "name": "Legendary Resistance (3/Day).",
@@ -2645,7 +2744,8 @@
                 }
             ],
             "challenge": "16 (15,000 XP)",
-            "damage_immunities": "lightning"
+            "damage_immunities": "lightning",
+            "senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 22"
         },
         {
             "name": "Young Blue Dragon",
@@ -2663,6 +2763,8 @@
                 "wis": "13",
                 "cha": "17"
             },
+            "saving_throws": "Dex +4, Con +8, Wis +5, Cha +7",
+            "skills": "Perception +9, Stealth +4",
             "abilities": [],
             "actions": [
                 {
@@ -2696,7 +2798,8 @@
                 }
             ],
             "challenge": "9 (5,000 XP)",
-            "damage_immunities": "lightning"
+            "damage_immunities": "lightning",
+            "senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 19"
         },
         {
             "name": "Blue Dragon Wyrmling",
@@ -2714,6 +2817,8 @@
                 "wis": "11",
                 "cha": "15"
             },
+            "saving_throws": "Dex +2, Con +4, Wis +2, Cha +4",
+            "skills": "Perception +4, Stealth +2",
             "abilities": [],
             "actions": [
                 {
@@ -2735,7 +2840,8 @@
                 }
             ],
             "challenge": "3 (700 XP)",
-            "damage_immunities": "lightning"
+            "damage_immunities": "lightning",
+            "senses": "blindsight 10 ft., darkvision 60 ft., passive Perception 14"
         },
         {
             "name": "Ancient Green Dragon",
@@ -2753,6 +2859,8 @@
                 "wis": "17",
                 "cha": "19"
             },
+            "saving_throws": "Dex +8, Con +14, Wis +10, Cha +11",
+            "skills": "Deception +11, Insight +10, Perception +17, Persuasion +11, Stealth +8",
             "abilities": [
                 {
                     "name": "Amphibious.",
@@ -2822,7 +2930,8 @@
             ],
             "challenge": "22 (41,000 XP)",
             "damage_immunities": "poison",
-            "condition_immunities": "poisoned"
+            "condition_immunities": "poisoned",
+            "senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 27"
         },
         {
             "name": "Adult Green Dragon",
@@ -2840,6 +2949,8 @@
                 "wis": "15",
                 "cha": "17"
             },
+            "saving_throws": "Dex +6, Con +10, Wis +7, Cha +8",
+            "skills": "Deception +8, Insight +7, Perception +12, Persuasion +8, Stealth +6",
             "abilities": [
                 {
                     "name": "Amphibious.",
@@ -2909,7 +3020,8 @@
             ],
             "challenge": "15 (13,000 XP)",
             "damage_immunities": "poison",
-            "condition_immunities": "poisoned"
+            "condition_immunities": "poisoned",
+            "senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 22"
         },
         {
             "name": "Young Green Dragon",
@@ -2927,6 +3039,8 @@
                 "wis": "13",
                 "cha": "15"
             },
+            "saving_throws": "Dex +4, Con +6, Wis +4, Cha +5",
+            "skills": "Deception +5, Perception +7, Stealth +4",
             "abilities": [
                 {
                     "name": "Amphibious.",
@@ -2966,7 +3080,8 @@
             ],
             "challenge": "8 (3,900 XP)",
             "damage_immunities": "poison",
-            "condition_immunities": "poisoned"
+            "condition_immunities": "poisoned",
+            "senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 17"
         },
         {
             "name": "Green Dragon Wyrmling",
@@ -2984,6 +3099,8 @@
                 "wis": "11",
                 "cha": "13"
             },
+            "saving_throws": "Dex +3, Con +3, Wis +2, Cha +3",
+            "skills": "Perception +4, Stealth +3",
             "abilities": [
                 {
                     "name": "Amphibious.",
@@ -3011,7 +3128,8 @@
             ],
             "challenge": "2 (450 XP)",
             "damage_immunities": "poison",
-            "condition_immunities": "poisoned"
+            "condition_immunities": "poisoned",
+            "senses": "blindsight 10 ft., darkvision 60 ft., passive Perception 14"
         },
         {
             "name": "Ancient Red Dragon",
@@ -3029,6 +3147,8 @@
                 "wis": "15",
                 "cha": "23"
             },
+            "saving_throws": "Dex +7, Con +16, Wis +9, Cha +13",
+            "skills": "Perception +16, Stealth +7",
             "abilities": [
                 {
                     "name": "Legendary Resistance (3/Day).",
@@ -3093,7 +3213,8 @@
                 }
             ],
             "challenge": "24 (62,000 XP)",
-            "damage_immunities": "fire"
+            "damage_immunities": "fire",
+            "senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 26"
         },
         {
             "name": "Adult Red Dragon",
@@ -3111,6 +3232,8 @@
                 "wis": "13",
                 "cha": "21"
             },
+            "saving_throws": "Dex +6, Con +13, Wis +7, Cha +11",
+            "skills": "Perception +13, Stealth +6",
             "abilities": [
                 {
                     "name": "Legendary Resistance (3/Day).",
@@ -3175,7 +3298,8 @@
                 }
             ],
             "challenge": "17 (18,000 XP)",
-            "damage_immunities": "fire"
+            "damage_immunities": "fire",
+            "senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 23"
         },
         {
             "name": "Young Red Dragon",
@@ -3193,6 +3317,8 @@
                 "wis": "11",
                 "cha": "19"
             },
+            "saving_throws": "Dex +4, Con +9, Wis +4, Cha +8",
+            "skills": "Perception +8, Stealth +4",
             "abilities": [],
             "actions": [
                 {
@@ -3226,7 +3352,8 @@
                 }
             ],
             "challenge": "10 (5,900 XP)",
-            "damage_immunities": "fire"
+            "damage_immunities": "fire",
+            "senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 18"
         },
         {
             "name": "Red Dragon Wyrmling",
@@ -3244,6 +3371,8 @@
                 "wis": "11",
                 "cha": "15"
             },
+            "saving_throws": "Dex +2, Con +5, Wis +2, Cha +4",
+            "skills": "Perception +4, Stealth +2",
             "abilities": [],
             "actions": [
                 {
@@ -3265,7 +3394,8 @@
                 }
             ],
             "challenge": "4 (1,100 XP)",
-            "damage_immunities": "fire"
+            "damage_immunities": "fire",
+            "senses": "blindsight 10 ft., darkvision 60 ft., passive Perception 14"
         },
         {
             "name": "Ancient White Dragon",
@@ -3283,6 +3413,8 @@
                 "wis": "13",
                 "cha": "14"
             },
+            "saving_throws": "Dex +6, Con +14, Wis +7, Cha +8",
+            "skills": "Perception +13, Stealth +6",
             "abilities": [
                 {
                     "name": "Ice Walk.",
@@ -3351,7 +3483,8 @@
                 }
             ],
             "challenge": "20 (25,000 XP)",
-            "damage_immunities": "cold"
+            "damage_immunities": "cold",
+            "senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 23"
         },
         {
             "name": "Adult White Dragon",
@@ -3369,6 +3502,8 @@
                 "wis": "12",
                 "cha": "12"
             },
+            "saving_throws": "Dex +5, Con +11, Wis +6, Cha +6",
+            "skills": "Perception +11, Stealth +5",
             "abilities": [
                 {
                     "name": "Ice Walk.",
@@ -3437,7 +3572,8 @@
                 }
             ],
             "challenge": "13 (10,000 XP)",
-            "damage_immunities": "cold"
+            "damage_immunities": "cold",
+            "senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 21"
         },
         {
             "name": "Young White Dragon",
@@ -3455,6 +3591,8 @@
                 "wis": "11",
                 "cha": "12"
             },
+            "saving_throws": "Dex +3, Con +7, Wis +3, Cha +4",
+            "skills": "Perception +6, Stealth +3",
             "abilities": [
                 {
                     "name": "Ice Walk.",
@@ -3493,7 +3631,8 @@
                 }
             ],
             "challenge": "6 (2,300 XP)",
-            "damage_immunities": "cold"
+            "damage_immunities": "cold",
+            "senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 16"
         },
         {
             "name": "White Dragon Wyrmling",
@@ -3511,6 +3650,7 @@
                 "wis": "10",
                 "cha": "11"
             },
+            "skills": "Perception +4, Stealth +2",
             "abilities": [],
             "actions": [
                 {
@@ -3532,7 +3672,8 @@
                 }
             ],
             "challenge": "2 (450 XP)",
-            "damage_immunities": "cold"
+            "damage_immunities": "cold",
+            "senses": "blindsight 10 ft., darkvision 60 ft., passive Perception 14"
         },
         {
             "name": "Ancient Brass Dragon",
@@ -3550,6 +3691,8 @@
                 "wis": "15",
                 "cha": "19"
             },
+            "saving_throws": "Dex +6, Con +13, Wis +8, Cha +10",
+            "skills": "History +9, Perception +14, Persuasion +10, Stealth +6",
             "abilities": [
                 {
                     "name": "Legendary Resistance (3/Day).",
@@ -3629,7 +3772,8 @@
                 }
             ],
             "challenge": "20 (25,000 XP)",
-            "damage_immunities": "fire"
+            "damage_immunities": "fire",
+            "senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 24"
         },
         {
             "name": "Adult Brass Dragon",
@@ -3647,6 +3791,8 @@
                 "wis": "13",
                 "cha": "17"
             },
+            "saving_throws": "Dex +5, Con +10, Wis +6, Cha +8",
+            "skills": "History +7, Perception +11, Persuasion +8, Stealth +5",
             "abilities": [
                 {
                     "name": "Legendary Resistance (3/Day).",
@@ -3718,7 +3864,8 @@
                 }
             ],
             "challenge": "13 (10,000 XP)",
-            "damage_immunities": "fire"
+            "damage_immunities": "fire",
+            "senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 21"
         },
         {
             "name": "Young Brass Dragon",
@@ -3736,6 +3883,8 @@
                 "wis": "11",
                 "cha": "15"
             },
+            "saving_throws": "Dex +3, Con +6, Wis +3, Cha +5",
+            "skills": "Perception +6, Persuasion +5, Stealth +3",
             "abilities": [],
             "actions": [
                 {
@@ -3776,7 +3925,8 @@
                 }
             ],
             "challenge": "6 (2,300 XP)",
-            "damage_immunities": "fire"
+            "damage_immunities": "fire",
+            "senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 16"
         },
         {
             "name": "Brass Dragon Wyrmling",
@@ -3794,6 +3944,8 @@
                 "wis": "11",
                 "cha": "13"
             },
+            "saving_throws": "Dex +2, Con +3, Wis +2, Cha +3",
+            "skills": "Perception +4, Stealth +2",
             "abilities": [],
             "actions": [
                 {
@@ -3822,7 +3974,8 @@
                 }
             ],
             "challenge": "1 (200 XP)",
-            "damage_immunities": "fire"
+            "damage_immunities": "fire",
+            "senses": "blindsight 10 ft., darkvision 60 ft., passive Perception 14"
         },
         {
             "name": "Ancient Bronze Dragon",
@@ -3840,6 +3993,8 @@
                 "wis": "17",
                 "cha": "21"
             },
+            "saving_throws": "Dex +7, Con +15, Wis +10, Cha +12",
+            "skills": "Insight +10, Perception +17, Stealth +7",
             "abilities": [
                 {
                     "name": "Amphibious.",
@@ -3919,7 +4074,8 @@
                 }
             ],
             "challenge": "22 (41,000 XP)",
-            "damage_immunities": "lightning"
+            "damage_immunities": "lightning",
+            "senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 27"
         },
         {
             "name": "Adult Bronze Dragon",
@@ -3937,6 +4093,8 @@
                 "wis": "15",
                 "cha": "19"
             },
+            "saving_throws": "Dex +5, Con +11, Wis +7, Cha +9",
+            "skills": "Insight +7, Perception +12, Stealth +5",
             "abilities": [
                 {
                     "name": "Amphibious.",
@@ -4016,7 +4174,8 @@
                 }
             ],
             "challenge": "15 (13,000 XP)",
-            "damage_immunities": "lightning"
+            "damage_immunities": "lightning",
+            "senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 22"
         },
         {
             "name": "Young Bronze Dragon",
@@ -4034,6 +4193,8 @@
                 "wis": "13",
                 "cha": "17"
             },
+            "saving_throws": "Dex +3, Con +7, Wis +4, Cha +6",
+            "skills": "Insight +4, Perception +7, Stealth +3",
             "abilities": [
                 {
                     "name": "Amphibious.",
@@ -4079,7 +4240,8 @@
                 }
             ],
             "challenge": "8 (3,900 XP)",
-            "damage_immunities": "lightning"
+            "damage_immunities": "lightning",
+            "senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 17"
         },
         {
             "name": "Bronze Dragon Wyrmling",
@@ -4097,6 +4259,8 @@
                 "wis": "11",
                 "cha": "15"
             },
+            "saving_throws": "Dex +2, Con +4, Wis +2, Cha +4",
+            "skills": "Perception +4, Stealth +2",
             "abilities": [
                 {
                     "name": "Amphibious.",
@@ -4130,7 +4294,8 @@
                 }
             ],
             "challenge": "2 (450 XP)",
-            "damage_immunities": "lightning"
+            "damage_immunities": "lightning",
+            "senses": "blindsight 10 ft., darkvision 60 ft., passive Perception 14"
         },
         {
             "name": "Ancient Copper Dragon",
@@ -4148,6 +4313,8 @@
                 "wis": "17",
                 "cha": "19"
             },
+            "saving_throws": "Dex +8, Con +14, Wis +10, Cha +11",
+            "skills": "Deception +11, Perception +17, Stealth +8",
             "abilities": [
                 {
                     "name": "Legendary Resistance (3/Day).",
@@ -4223,7 +4390,8 @@
                 }
             ],
             "challenge": "21 (33,000 XP)",
-            "damage_immunities": "acid"
+            "damage_immunities": "acid",
+            "senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 27"
         },
         {
             "name": "Adult Copper Dragon",
@@ -4241,6 +4409,8 @@
                 "wis": "15",
                 "cha": "17"
             },
+            "saving_throws": "Dex +6, Con +10, Wis +7, Cha +8",
+            "skills": "Deception +8, Perception +12, Stealth +6",
             "abilities": [
                 {
                     "name": "Legendary Resistance (3/Day).",
@@ -4293,7 +4463,8 @@
             ],
             "actions": [],
             "challenge": "14 (11,500 XP)",
-            "damage_immunities": "acid"
+            "damage_immunities": "acid",
+            "senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 22"
         },
         {
             "name": "Young Copper Dragon",
@@ -4311,6 +4482,8 @@
                 "wis": "13",
                 "cha": "15"
             },
+            "saving_throws": "Dex +4, Con +6, Wis +4, Cha +5",
+            "skills": "Deception +5, Perception +7, Stealth +4",
             "abilities": [],
             "actions": [
                 {
@@ -4351,7 +4524,8 @@
                 }
             ],
             "challenge": "7 (2,900 XP)",
-            "damage_immunities": "acid"
+            "damage_immunities": "acid",
+            "senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 17"
         },
         {
             "name": "Copper Dragon Wyrmling",
@@ -4369,6 +4543,8 @@
                 "wis": "11",
                 "cha": "13"
             },
+            "saving_throws": "Dex +3, Con +3, Wis +2, Cha +3",
+            "skills": "Perception +4, Stealth +3",
             "abilities": [],
             "actions": [
                 {
@@ -4397,7 +4573,8 @@
                 }
             ],
             "challenge": "1 (200 XP)",
-            "damage_immunities": "acid"
+            "damage_immunities": "acid",
+            "senses": "blindsight 10 ft., darkvision 60 ft., passive Perception 14"
         },
         {
             "name": "Ancient Gold Dragon",
@@ -4415,6 +4592,8 @@
                 "wis": "17",
                 "cha": "28"
             },
+            "saving_throws": "Dex +9, Con +16, Wis +10, Cha +16",
+            "skills": "Insight +10, Perception +17, Persuasion +16, Stealth +9",
             "abilities": [
                 {
                     "name": "Amphibious.",
@@ -4494,7 +4673,8 @@
                 }
             ],
             "challenge": "24 (62,000 XP)",
-            "damage_immunities": "fire"
+            "damage_immunities": "fire",
+            "senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 27"
         },
         {
             "name": "Adult Gold Dragon",
@@ -4512,6 +4692,8 @@
                 "wis": "15",
                 "cha": "24"
             },
+            "saving_throws": "Dex +8, Con +13, Wis +8, Cha +13",
+            "skills": "Insight +8, Perception +14, Persuasion +13, Stealth +8",
             "abilities": [
                 {
                     "name": "Amphibious.",
@@ -4591,7 +4773,8 @@
                 }
             ],
             "challenge": "17 (18,000 XP)",
-            "damage_immunities": "fire"
+            "damage_immunities": "fire",
+            "senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 24"
         },
         {
             "name": "Young Gold Dragon",
@@ -4609,6 +4792,8 @@
                 "wis": "13",
                 "cha": "20"
             },
+            "saving_throws": "Dex +6, Con +9, Wis +5, Cha +9",
+            "skills": "Insight +5, Perception +9, Persuasion +9, Stealth +6",
             "abilities": [
                 {
                     "name": "Amphibious.",
@@ -4654,7 +4839,8 @@
                 }
             ],
             "challenge": "10 (5,900 XP)",
-            "damage_immunities": "fire"
+            "damage_immunities": "fire",
+            "senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 19"
         },
         {
             "name": "Gold Dragon Wyrmling",
@@ -4672,6 +4858,8 @@
                 "wis": "11",
                 "cha": "16"
             },
+            "saving_throws": "Dex +4, Con +5, Wis +2, Cha +5",
+            "skills": "Perception +4, Stealth +4",
             "abilities": [
                 {
                     "name": "Amphibious.",
@@ -4705,7 +4893,8 @@
                 }
             ],
             "challenge": "3 (700 XP)",
-            "damage_immunities": "fire"
+            "damage_immunities": "fire",
+            "senses": "blindsight 10 ft., darkvision 60 ft., passive Perception 14"
         },
         {
             "name": "Ancient Silver Dragon",
@@ -4723,6 +4912,8 @@
                 "wis": "15",
                 "cha": "23"
             },
+            "saving_throws": "Dex +7, Con +16, Wis +9, Cha +13",
+            "skills": "Arcana +11, History +11, Perception +16, Stealth +7",
             "abilities": [
                 {
                     "name": "Legendary Resistance (3/Day).",
@@ -4798,7 +4989,8 @@
                 }
             ],
             "challenge": "23 (50,000 XP)",
-            "damage_immunities": "cold"
+            "damage_immunities": "cold",
+            "senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 26"
         },
         {
             "name": "Adult Silver Dragon",
@@ -4816,6 +5008,8 @@
                 "wis": "13",
                 "cha": "21"
             },
+            "saving_throws": "Dex +5, Con +12, Wis +6, Cha +10",
+            "skills": "Arcana +8, History +8, Perception +11, Stealth +5",
             "abilities": [
                 {
                     "name": "Legendary Resistance (3/Day).",
@@ -4891,7 +5085,8 @@
                 }
             ],
             "challenge": "16 (15,000 XP)",
-            "damage_immunities": "cold"
+            "damage_immunities": "cold",
+            "senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 21"
         },
         {
             "name": "Young Silver Dragon",
@@ -4909,6 +5104,8 @@
                 "wis": "11",
                 "cha": "19"
             },
+            "saving_throws": "Dex +4, Con +9, Wis +4, Cha +8",
+            "skills": "Arcana +6, History +6, Perception +8, Stealth +4",
             "abilities": [],
             "actions": [
                 {
@@ -4949,7 +5146,8 @@
                 }
             ],
             "challenge": "9 (5,000 XP)",
-            "damage_immunities": "cold"
+            "damage_immunities": "cold",
+            "senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 18"
         },
         {
             "name": "Silver Dragon Wyrmling",
@@ -4967,6 +5165,8 @@
                 "wis": "11",
                 "cha": "15"
             },
+            "saving_throws": "Dex +2, Con +5, Wis +2, Cha +4",
+            "skills": "Perception +4, Stealth +2",
             "abilities": [],
             "actions": [
                 {
@@ -4995,7 +5195,8 @@
                 }
             ],
             "challenge": "2 (450 XP)",
-            "damage_immunities": "cold"
+            "damage_immunities": "cold",
+            "senses": "blindsight 10 ft., darkvision 60 ft., passive Perception 14"
         },
         {
             "name": "Dragon Turtle",
@@ -5013,6 +5214,7 @@
                 "wis": "12",
                 "cha": "12"
             },
+            "saving_throws": "Dex +6, Con +11, Wis +7",
             "abilities": [
                 {
                     "name": "Amphibious.",
@@ -5058,7 +5260,8 @@
                 }
             ],
             "challenge": "17 (18,000 XP)",
-            "damage_resistances": "fire"
+            "damage_resistances": "fire",
+            "senses": "darkvision 120 ft., passive Perception 11"
         },
         {
             "name": "Drider",
@@ -5076,6 +5279,7 @@
                 "wis": "14",
                 "cha": "12"
             },
+            "skills": "Perception +5, Stealth +9",
             "abilities": [
                 {
                     "name": "Fey Ancestry.",
@@ -5132,7 +5336,8 @@
                     "range": "150/600 ft."
                 }
             ],
-            "challenge": "6 (2,300 XP)"
+            "challenge": "6 (2,300 XP)",
+            "senses": "darkvision 120 ft., passive Perception 15"
         },
         {
             "name": "Dryad",
@@ -5150,6 +5355,7 @@
                 "wis": "15",
                 "cha": "18"
             },
+            "skills": "Perception +4, Stealth +5",
             "abilities": [
                 {
                     "name": "Innate Spellcasting.",
@@ -5183,7 +5389,8 @@
                     "saving_throw": "DC 14 Wisdom"
                 }
             ],
-            "challenge": "1 (200 XP)"
+            "challenge": "1 (200 XP)",
+            "senses": "darkvision 60 ft., passive Perception 14"
         },
         {
             "name": "Duergar",
@@ -5237,7 +5444,8 @@
                 }
             ],
             "challenge": "1 (200 XP)",
-            "damage_resistances": "poison"
+            "damage_resistances": "poison",
+            "senses": "darkvision 120 ft., passive Perception 10"
         },
         {
             "name": "Air Elemental",
@@ -5283,7 +5491,8 @@
             "challenge": "5 (1,800 XP)",
             "damage_resistances": "lightning, thunder; bludgeoning, piercing, and slashing from nonmagical attacks",
             "damage_immunities": "poison",
-            "condition_immunities": "exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious"
+            "condition_immunities": "exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious",
+            "senses": "darkvision 60 ft., passive Perception 10"
         },
         {
             "name": "Earth Elemental",
@@ -5329,7 +5538,8 @@
             "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks",
             "damage_immunities": "poison",
             "condition_immunities": "exhaustion, paralyzed, petrified, poisoned, unconscious",
-            "damage_vulnerabilities": "thunder"
+            "damage_vulnerabilities": "thunder",
+            "senses": "darkvision 60 ft., tremorsense 60 ft., passive Perception 10"
         },
         {
             "name": "Fire Elemental",
@@ -5378,7 +5588,8 @@
             "challenge": "5 (1,800 XP)",
             "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks",
             "damage_immunities": "fire, poison",
-            "condition_immunities": "exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious"
+            "condition_immunities": "exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious",
+            "senses": "darkvision 60 ft., passive Perception 10"
         },
         {
             "name": "Water Elemental",
@@ -5422,7 +5633,8 @@
             "challenge": "5 (1,800 XP)",
             "damage_resistances": "acid; bludgeoning, piercing, and slashing from nonmagical attacks",
             "damage_immunities": "poison",
-            "condition_immunities": "exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious"
+            "condition_immunities": "exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious",
+            "senses": "darkvision 60 ft., passive Perception 10"
         },
         {
             "name": "Elf, Drow",
@@ -5440,6 +5652,7 @@
                 "wis": "11",
                 "cha": "12"
             },
+            "skills": "Perception +2, Stealth +4",
             "abilities": [
                 {
                     "name": "Fey Ancestry.",
@@ -5473,7 +5686,8 @@
                     "saving_throw": "DC 13 Constitution"
                 }
             ],
-            "challenge": "1/4 (50 XP)"
+            "challenge": "1/4 (50 XP)",
+            "senses": "darkvision 120 ft., passive Perception 12"
         },
         {
             "name": "Ettercap",
@@ -5491,6 +5705,7 @@
                 "wis": "12",
                 "cha": "8"
             },
+            "skills": "Perception +3, Stealth +4, Survival +3",
             "abilities": [
                 {
                     "name": "Spider Climb.",
@@ -5536,7 +5751,8 @@
                     "range": "30/60 ft."
                 }
             ],
-            "challenge": "2 (450 XP)"
+            "challenge": "2 (450 XP)",
+            "senses": "darkvision 60 ft., passive Perception 13"
         },
         {
             "name": "Ettin",
@@ -5554,6 +5770,7 @@
                 "wis": "10",
                 "cha": "8"
             },
+            "skills": "Perception +4",
             "abilities": [
                 {
                     "name": "Two Heads.",
@@ -5586,7 +5803,8 @@
                     "reach": "5 ft."
                 }
             ],
-            "challenge": "4 (1,100 XP)"
+            "challenge": "4 (1,100 XP)",
+            "senses": "darkvision 60 ft., passive Perception 14"
         },
         {
             "name": "Shrieker",
@@ -5616,7 +5834,8 @@
             ],
             "actions": [],
             "challenge": "0 (10 XP)",
-            "condition_immunities": "blinded, deafened, frightened"
+            "condition_immunities": "blinded, deafened, frightened",
+            "senses": "blindsight 30 ft. (blind beyond this radius), passive Perception 6"
         },
         {
             "name": "Violet Fungus",
@@ -5655,7 +5874,8 @@
                 }
             ],
             "challenge": "1/4 (50 XP)",
-            "condition_immunities": "blinded, deafened, frightened"
+            "condition_immunities": "blinded, deafened, frightened",
+            "senses": "blindsight 30 ft. (blind beyond this radius), passive Perception 6"
         },
         {
             "name": "Gargoyle",
@@ -5704,7 +5924,8 @@
             "challenge": "2 (450 XP)",
             "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks that aren\u2019t adamantine",
             "damage_immunities": "poison",
-            "condition_immunities": "exhaustion, petrified, poisoned"
+            "condition_immunities": "exhaustion, petrified, poisoned",
+            "senses": "darkvision 60 ft., passive Perception 10"
         },
         {
             "name": "Djinni",
@@ -5722,6 +5943,7 @@
                 "wis": "16",
                 "cha": "20"
             },
+            "saving_throws": "Dex +6, Wis +7, Cha +9",
             "abilities": [
                 {
                     "name": "Elemental Demise.",
@@ -5752,7 +5974,8 @@
                 }
             ],
             "challenge": "11 (7,200 XP)",
-            "damage_immunities": "lightning, thunder"
+            "damage_immunities": "lightning, thunder",
+            "senses": "darkvision 120 ft., passive Perception 13"
         },
         {
             "name": "Efreeti",
@@ -5770,6 +5993,7 @@
                 "wis": "15",
                 "cha": "16"
             },
+            "saving_throws": "Int +7, Wis +6, Cha +7",
             "abilities": [
                 {
                     "name": "Elemental Demise.",
@@ -5804,7 +6028,8 @@
                 }
             ],
             "challenge": "11 (7,200 XP)",
-            "damage_immunities": "fire"
+            "damage_immunities": "fire",
+            "senses": "darkvision 120 ft., passive Perception 12"
         },
         {
             "name": "Ghost",
@@ -5859,7 +6084,8 @@
             "challenge": "4 (1,100 XP)",
             "damage_resistances": "acid, fire, lightning, thunder; bludgeoning, piercing, and slashing from nonmagical attacks",
             "damage_immunities": "cold, necrotic, poison",
-            "condition_immunities": "charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained"
+            "condition_immunities": "charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained",
+            "senses": "darkvision 60 ft., passive Perception 11"
         },
         {
             "name": "Ghast",
@@ -5909,7 +6135,8 @@
             "challenge": "2 (450 XP)",
             "damage_resistances": "necrotic",
             "damage_immunities": "poison",
-            "condition_immunities": "charmed, exhaustion, poisoned"
+            "condition_immunities": "charmed, exhaustion, poisoned",
+            "senses": "darkvision 60 ft., passive Perception 10"
         },
         {
             "name": "Ghoul",
@@ -5949,7 +6176,8 @@
             ],
             "challenge": "1 (200 XP)",
             "damage_immunities": "poison",
-            "condition_immunities": "charmed, exhaustion, poisoned"
+            "condition_immunities": "charmed, exhaustion, poisoned",
+            "senses": "darkvision 60 ft., passive Perception 10"
         },
         {
             "name": "Cloud Giant",
@@ -5967,6 +6195,8 @@
                 "wis": "16",
                 "cha": "16"
             },
+            "saving_throws": "Con +10, Wis +7, Cha +7",
+            "skills": "Insight +7, Perception +7",
             "abilities": [
                 {
                     "name": "Keen Smell.",
@@ -5999,7 +6229,8 @@
                     "range": "60/240 ft."
                 }
             ],
-            "challenge": "9 (5,000 XP)"
+            "challenge": "9 (5,000 XP)",
+            "senses": "passive Perception 17"
         },
         {
             "name": "Fire Giant",
@@ -6017,6 +6248,8 @@
                 "wis": "14",
                 "cha": "13"
             },
+            "saving_throws": "Dex +3, Con +10, Cha +5",
+            "skills": "Athletics +11, Perception +6",
             "abilities": [],
             "actions": [
                 {
@@ -6041,7 +6274,8 @@
                 }
             ],
             "challenge": "9 (5,000 XP)",
-            "damage_immunities": "fire"
+            "damage_immunities": "fire",
+            "senses": "passive Perception 16"
         },
         {
             "name": "Frost Giant",
@@ -6059,6 +6293,8 @@
                 "wis": "10",
                 "cha": "12"
             },
+            "saving_throws": "Con +8, Wis +3, Cha +4",
+            "skills": "Athletics +9, Perception +3",
             "abilities": [],
             "actions": [
                 {
@@ -6083,7 +6319,8 @@
                 }
             ],
             "challenge": "8 (3,900 XP)",
-            "damage_immunities": "cold"
+            "damage_immunities": "cold",
+            "senses": "passive Perception 13"
         },
         {
             "name": "Hill Giant",
@@ -6101,6 +6338,7 @@
                 "wis": "9",
                 "cha": "6"
             },
+            "skills": "Perception +2",
             "abilities": [],
             "actions": [
                 {
@@ -6124,7 +6362,8 @@
                     "range": "60/240 ft."
                 }
             ],
-            "challenge": "5 (1,800 XP)"
+            "challenge": "5 (1,800 XP)",
+            "senses": "passive Perception 12"
         },
         {
             "name": "Stone Giant",
@@ -6142,6 +6381,8 @@
                 "wis": "12",
                 "cha": "9"
             },
+            "saving_throws": "Dex +5, Con +8, Wis +4",
+            "skills": "Athletics +12, Perception +4",
             "abilities": [
                 {
                     "name": "Stone Camouflage.",
@@ -6176,7 +6417,8 @@
                     "saving_throw": "DC 10 Dexterity"
                 }
             ],
-            "challenge": "7 (2,900 XP)"
+            "challenge": "7 (2,900 XP)",
+            "senses": "darkvision 60 ft., passive Perception 14"
         },
         {
             "name": "Storm Giant",
@@ -6194,6 +6436,8 @@
                 "wis": "18",
                 "cha": "18"
             },
+            "saving_throws": "Str +14, Con +10, Wis +9, Cha +9",
+            "skills": "Arcana +8, Athletics +14, History +8, Perception +9",
             "abilities": [
                 {
                     "name": "Amphibious.",
@@ -6235,7 +6479,8 @@
             ],
             "challenge": "13 (10,000 XP)",
             "damage_resistances": "cold",
-            "damage_immunities": "lightning, thunder"
+            "damage_immunities": "lightning, thunder",
+            "senses": "passive Perception 19"
         },
         {
             "name": "Gibbering Mouther",
@@ -6284,7 +6529,8 @@
                 }
             ],
             "challenge": "2 (450 XP)",
-            "condition_immunities": "prone"
+            "condition_immunities": "prone",
+            "senses": "darkvision 60 ft., passive Perception 10"
         },
         {
             "name": "Gnoll",
@@ -6333,7 +6579,8 @@
                     "range": "150/600 ft."
                 }
             ],
-            "challenge": "1/2 (100 XP)"
+            "challenge": "1/2 (100 XP)",
+            "senses": "darkvision 60 ft., passive Perception 10"
         },
         {
             "name": "Gnome, Deep (Svirfneblin)",
@@ -6351,6 +6598,7 @@
                 "wis": "10",
                 "cha": "9"
             },
+            "skills": "Investigation +3, Perception +2, Stealth +4",
             "abilities": [
                 {
                     "name": "Stone Camouflage.",
@@ -6384,7 +6632,8 @@
                     "saving_throw": "DC 12 Constitution"
                 }
             ],
-            "challenge": "1/2 (100 XP)"
+            "challenge": "1/2 (100 XP)",
+            "senses": "darkvision 120 ft., passive Perception 12"
         },
         {
             "name": "Goblin",
@@ -6402,6 +6651,7 @@
                 "wis": "8",
                 "cha": "8"
             },
+            "skills": "Stealth +6",
             "abilities": [
                 {
                     "name": "Nimble Escape.",
@@ -6426,7 +6676,8 @@
                     "range": "80/320 ft."
                 }
             ],
-            "challenge": "1/4 (50 XP)"
+            "challenge": "1/4 (50 XP)",
+            "senses": "darkvision 60 ft., passive Perception 9"
         },
         {
             "name": "Clay Golem",
@@ -6487,7 +6738,8 @@
             ],
             "challenge": "9 (5,000 XP)",
             "damage_immunities": "acid, poison, psychic; bludgeoning, piercing, and slashing from nonmagical attacks that aren\u2019t adamantine",
-            "condition_immunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned"
+            "condition_immunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+            "senses": "darkvision 60 ft., passive Perception 9"
         },
         {
             "name": "Flesh Golem",
@@ -6547,7 +6799,8 @@
             ],
             "challenge": "5 (1,800 XP)",
             "damage_immunities": "lightning, poison; bludgeoning, piercing, and slashing from nonmagical attacks that aren\u2019t adamantine",
-            "condition_immunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned"
+            "condition_immunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+            "senses": "darkvision 60 ft., passive Perception 10"
         },
         {
             "name": "Iron Golem",
@@ -6614,7 +6867,8 @@
             ],
             "challenge": "16 (15,000 XP)",
             "damage_immunities": "fire, poison, psychic; bludgeoning, piercing, and slashing from nonmagical attacks that aren\u2019t adamantine",
-            "condition_immunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned"
+            "condition_immunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+            "senses": "darkvision 120 ft., passive Perception 10"
         },
         {
             "name": "Stone Golem",
@@ -6667,7 +6921,8 @@
             ],
             "challenge": "10 (5,900 XP)",
             "damage_immunities": "poison, psychic; bludgeoning, piercing, and slashing from nonmagical attacks that aren\u2019t adamantine",
-            "condition_immunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned"
+            "condition_immunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+            "senses": "darkvision 120 ft., passive Perception 10"
         },
         {
             "name": "Gorgon",
@@ -6685,6 +6940,7 @@
                 "wis": "12",
                 "cha": "7"
             },
+            "skills": "Perception +4",
             "abilities": [
                 {
                     "name": "Trampling Charge.",
@@ -6715,7 +6971,8 @@
                 }
             ],
             "challenge": "5 (1,800 XP)",
-            "condition_immunities": "petrified"
+            "condition_immunities": "petrified",
+            "senses": "darkvision 60 ft., passive Perception 14"
         },
         {
             "name": "Grick",
@@ -6762,7 +7019,8 @@
                 }
             ],
             "challenge": "2 (450 XP)",
-            "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks"
+            "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks",
+            "senses": "darkvision 60 ft., passive Perception 12"
         },
         {
             "name": "Griffon",
@@ -6780,6 +7038,7 @@
                 "wis": "13",
                 "cha": "8"
             },
+            "skills": "Perception +5",
             "abilities": [
                 {
                     "name": "Keen Sight.",
@@ -6808,7 +7067,8 @@
                     "reach": "5 ft."
                 }
             ],
-            "challenge": "2 (450 XP)"
+            "challenge": "2 (450 XP)",
+            "senses": "darkvision 60 ft., passive Perception 15"
         },
         {
             "name": "Grimlock",
@@ -6826,6 +7086,7 @@
                 "wis": "8",
                 "cha": "6"
             },
+            "skills": "Athletics +5, Perception +3, Stealth +3",
             "abilities": [
                 {
                     "name": "Blind Senses.",
@@ -6853,7 +7114,8 @@
                 }
             ],
             "challenge": "1/4 (50 XP)",
-            "condition_immunities": "blinded"
+            "condition_immunities": "blinded",
+            "senses": "blindsight 30 ft. or 10 ft. while deafened (blind beyond this radius), passive Perception 13"
         },
         {
             "name": "Green Hag",
@@ -6871,6 +7133,7 @@
                 "wis": "14",
                 "cha": "14"
             },
+            "skills": "Arcana +3, Deception +4, Perception +4, Stealth +3",
             "abilities": [
                 {
                     "name": "Amphibious.",
@@ -6903,7 +7166,8 @@
                     "description": "The hag magically turns invisible until she attacks or casts a spell, or until her concentration ends (as if concentrating on a spell). While invisible, she leaves no physical evidence of her passage, so she can be tracked only by magic. Any equipment she wears or carries is invisible with her."
                 }
             ],
-            "challenge": "3 (700 XP)"
+            "challenge": "3 (700 XP)",
+            "senses": "darkvision 60 ft., passive Perception 14"
         },
         {
             "name": "Night Hag",
@@ -6921,6 +7185,7 @@
                 "wis": "14",
                 "cha": "16"
             },
+            "skills": "Deception +7, Insight +6, Perception +6, Stealth +6",
             "abilities": [
                 {
                     "name": "Innate Spellcasting.",
@@ -6955,7 +7220,8 @@
             ],
             "challenge": "5 (1,800 XP)",
             "damage_resistances": "cold, fire; bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons",
-            "condition_immunities": "charmed"
+            "condition_immunities": "charmed",
+            "senses": "darkvision 120 ft., passive Perception 16"
         },
         {
             "name": "Sea Hag",
@@ -7022,7 +7288,8 @@
                     "description": "The half-dragon has the breath weapon of its dragon half. The half-dragon\u2019s size determines how this action functions."
                 }
             ],
-            "challenge": "2 (450 XP)"
+            "challenge": "2 (450 XP)",
+            "senses": "darkvision 60 ft., passive Perception 11"
         },
         {
             "name": "Half--Red Dragon Veteran",
@@ -7040,6 +7307,7 @@
                 "wis": "11",
                 "cha": "10"
             },
+            "skills": "Athletics +5, Perception +2",
             "abilities": [],
             "actions": [
                 {
@@ -7079,7 +7347,8 @@
                 }
             ],
             "challenge": "5 (1,800 XP)",
-            "damage_resistances": "fire"
+            "damage_resistances": "fire",
+            "senses": "blindsight 10 ft., darkvision 60 ft., passive Perception 12"
         },
         {
             "name": "Harpy",
@@ -7125,7 +7394,8 @@
                     "saving_throw": "DC 11 Wisdom"
                 }
             ],
-            "challenge": "1 (200 XP)"
+            "challenge": "1 (200 XP)",
+            "senses": "passive Perception 10"
         },
         {
             "name": "Hell Hound",
@@ -7143,6 +7413,7 @@
                 "wis": "13",
                 "cha": "6"
             },
+            "skills": "Perception +5",
             "abilities": [
                 {
                     "name": "Keen Hearing and Smell.",
@@ -7173,7 +7444,8 @@
                 }
             ],
             "challenge": "3 (700 XP)",
-            "damage_immunities": "fire"
+            "damage_immunities": "fire",
+            "senses": "darkvision 60 ft., passive Perception 15"
         },
         {
             "name": "Hippogriff",
@@ -7191,6 +7463,7 @@
                 "wis": "12",
                 "cha": "8"
             },
+            "skills": "Perception +5",
             "abilities": [
                 {
                     "name": "Keen Sight.",
@@ -7219,7 +7492,8 @@
                     "reach": "5 ft."
                 }
             ],
-            "challenge": "1 (200 XP)"
+            "challenge": "1 (200 XP)",
+            "senses": "passive Perception 15"
         },
         {
             "name": "Hobgoblin",
@@ -7261,7 +7535,8 @@
                     "range": "150/600 ft."
                 }
             ],
-            "challenge": "1/2 (100 XP)"
+            "challenge": "1/2 (100 XP)",
+            "senses": "darkvision 60 ft., passive Perception 10"
         },
         {
             "name": "Homunculus",
@@ -7296,7 +7571,8 @@
             ],
             "challenge": "0 (10 XP)",
             "damage_immunities": "poison",
-            "condition_immunities": "charmed, poisoned"
+            "condition_immunities": "charmed, poisoned",
+            "senses": "darkvision 60 ft., passive Perception 10"
         },
         {
             "name": "Hydra",
@@ -7314,6 +7590,7 @@
                 "wis": "10",
                 "cha": "7"
             },
+            "skills": "Perception +6",
             "abilities": [
                 {
                     "name": "Hold Breath.",
@@ -7346,7 +7623,8 @@
                     "reach": "10 ft."
                 }
             ],
-            "challenge": "8 (3,900 XP)"
+            "challenge": "8 (3,900 XP)",
+            "senses": "darkvision 60 ft., passive Perception 16"
         },
         {
             "name": "Invisible Stalker",
@@ -7364,6 +7642,7 @@
                 "wis": "15",
                 "cha": "11"
             },
+            "skills": "Perception +8, Stealth +10",
             "abilities": [
                 {
                     "name": "Invisibility.",
@@ -7391,7 +7670,8 @@
             "challenge": "6 (2,300 XP)",
             "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks",
             "damage_immunities": "poison",
-            "condition_immunities": "exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious"
+            "condition_immunities": "exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious",
+            "senses": "darkvision 60 ft., passive Perception 18"
         },
         {
             "name": "Kobold",
@@ -7437,7 +7717,8 @@
                     "range": "30/120 ft."
                 }
             ],
-            "challenge": "1/8 (25 XP)"
+            "challenge": "1/8 (25 XP)",
+            "senses": "darkvision 60 ft., passive Perception 8"
         },
         {
             "name": "Kraken",
@@ -7455,6 +7736,7 @@
                 "wis": "18",
                 "cha": "20"
             },
+            "saving_throws": "Str +17, Dex +7, Con +14, Int +13, Wis +11",
             "abilities": [
                 {
                     "name": "Amphibious.",
@@ -7521,7 +7803,8 @@
             ],
             "challenge": "23 (50,000 XP)",
             "damage_immunities": "lightning; bludgeoning, piercing, and slashing from nonmagical attacks",
-            "condition_immunities": "frightened, paralyzed"
+            "condition_immunities": "frightened, paralyzed",
+            "senses": "truesight 120 ft., passive Perception 14"
         },
         {
             "name": "Lamia",
@@ -7539,6 +7822,7 @@
                 "wis": "15",
                 "cha": "16"
             },
+            "skills": "Deception +7, Insight +4, Stealth +3",
             "abilities": [
                 {
                     "name": "Innate Spellcasting.",
@@ -7573,7 +7857,8 @@
                     "reach": "5 ft."
                 }
             ],
-            "challenge": "4 (1,100 XP)"
+            "challenge": "4 (1,100 XP)",
+            "senses": "darkvision 60 ft., passive Perception 12"
         },
         {
             "name": "Lich",
@@ -7591,6 +7876,8 @@
                 "wis": "14",
                 "cha": "16"
             },
+            "saving_throws": "Con +10, Int +12, Wis +9",
+            "skills": "Arcana +18, History +12, Insight +9, Perception +9",
             "abilities": [
                 {
                     "name": "Legendary Resistance (3/Day).",
@@ -7643,7 +7930,8 @@
             "challenge": "21 (33,000 XP)",
             "damage_resistances": "cold, lightning, necrotic",
             "damage_immunities": "poison; bludgeoning, piercing, and slashing from nonmagical attacks",
-            "condition_immunities": "charmed, exhaustion, frightened, paralyzed, poisoned"
+            "condition_immunities": "charmed, exhaustion, frightened, paralyzed, poisoned",
+            "senses": "truesight 120 ft., passive Perception 19"
         },
         {
             "name": "Lizardfolk",
@@ -7661,6 +7949,7 @@
                 "wis": "12",
                 "cha": "7"
             },
+            "skills": "Perception +3, Stealth +4, Survival +5",
             "abilities": [
                 {
                     "name": "Hold Breath.",
@@ -7704,7 +7993,8 @@
                     "reach": "5 ft."
                 }
             ],
-            "challenge": "1/2 (100 XP)"
+            "challenge": "1/2 (100 XP)",
+            "senses": "passive Perception 13"
         },
         {
             "name": "Werebear",
@@ -7722,6 +8012,7 @@
                 "wis": "12",
                 "cha": "12"
             },
+            "skills": "Perception +7",
             "abilities": [
                 {
                     "name": "Shapechanger.",
@@ -7760,7 +8051,8 @@
                 }
             ],
             "challenge": "5 (1,800 XP)",
-            "damage_immunities": "bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons"
+            "damage_immunities": "bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons",
+            "senses": "passive Perception 17"
         },
         {
             "name": "Wereboar",
@@ -7778,6 +8070,7 @@
                 "wis": "11",
                 "cha": "8"
             },
+            "skills": "Perception +2",
             "abilities": [
                 {
                     "name": "Shapechanger.",
@@ -7814,7 +8107,8 @@
                 }
             ],
             "challenge": "4 (1,100 XP)",
-            "damage_immunities": "bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons"
+            "damage_immunities": "bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons",
+            "senses": "passive Perception 12"
         },
         {
             "name": "Wererat",
@@ -7832,6 +8126,7 @@
                 "wis": "10",
                 "cha": "8"
             },
+            "skills": "Perception +2, Stealth +4",
             "abilities": [
                 {
                     "name": "Shapechanger.",
@@ -7872,7 +8167,8 @@
                 }
             ],
             "challenge": "2 (450 XP)",
-            "damage_immunities": "bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons"
+            "damage_immunities": "bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons",
+            "senses": "darkvision 60 ft. (rat form only), passive Perception 12"
         },
         {
             "name": "Weretiger",
@@ -7890,6 +8186,7 @@
                 "wis": "13",
                 "cha": "11"
             },
+            "skills": "Perception +5, Stealth +4",
             "abilities": [
                 {
                     "name": "Shapechanger.",
@@ -7946,7 +8243,8 @@
                 }
             ],
             "challenge": "4 (1,100 XP)",
-            "damage_immunities": "bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons"
+            "damage_immunities": "bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons",
+            "senses": "darkvision 60 ft., passive Perception 15"
         },
         {
             "name": "Werewolf",
@@ -7964,6 +8262,7 @@
                 "wis": "11",
                 "cha": "10"
             },
+            "skills": "Perception +4, Stealth +3",
             "abilities": [
                 {
                     "name": "Shapechanger.",
@@ -8007,7 +8306,8 @@
                 }
             ],
             "challenge": "3 (700 XP)",
-            "damage_immunities": "bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons"
+            "damage_immunities": "bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons",
+            "senses": "passive Perception 14"
         },
         {
             "name": "Magmin",
@@ -8047,7 +8347,8 @@
             ],
             "challenge": "1/2 (100 XP)",
             "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks",
-            "damage_immunities": "fire"
+            "damage_immunities": "fire",
+            "senses": "darkvision 60 ft., passive Perception 10"
         },
         {
             "name": "Manticore",
@@ -8088,7 +8389,8 @@
                 }
             ],
             "actions": [],
-            "challenge": "3 (700 XP)"
+            "challenge": "3 (700 XP)",
+            "senses": "darkvision 60 ft., passive Perception 11"
         },
         {
             "name": "Medusa",
@@ -8106,6 +8408,7 @@
                 "wis": "13",
                 "cha": "15"
             },
+            "skills": "Deception +5, Insight +4, Perception +4, Stealth +5",
             "abilities": [
                 {
                     "name": "Petrifying Gaze.",
@@ -8146,7 +8449,8 @@
                     "range": "150/600 ft."
                 }
             ],
-            "challenge": "6 (2,300 XP)"
+            "challenge": "6 (2,300 XP)",
+            "senses": "darkvision 60 ft., passive Perception 14"
         },
         {
             "name": "Dust Mephit",
@@ -8164,6 +8468,7 @@
                 "wis": "11",
                 "cha": "10"
             },
+            "skills": "Perception +2, Stealth +4",
             "abilities": [
                 {
                     "name": "Death Burst.",
@@ -8186,7 +8491,8 @@
             "challenge": "1/2 (100 XP)",
             "damage_immunities": "poison",
             "condition_immunities": "poisoned",
-            "damage_vulnerabilities": "fire"
+            "damage_vulnerabilities": "fire",
+            "senses": "darkvision 60 ft., passive Perception 12"
         },
         {
             "name": "Ice Mephit",
@@ -8204,6 +8510,7 @@
                 "wis": "11",
                 "cha": "12"
             },
+            "skills": "Perception +2, Stealth +3",
             "abilities": [
                 {
                     "name": "Death Burst.",
@@ -8240,7 +8547,8 @@
             "challenge": "1/2 (100 XP)",
             "damage_immunities": "cold, poison",
             "condition_immunities": "poisoned",
-            "damage_vulnerabilities": "bludgeoning, fire"
+            "damage_vulnerabilities": "bludgeoning, fire",
+            "senses": "darkvision 60 ft., passive Perception 12"
         },
         {
             "name": "Magma Mephit",
@@ -8258,6 +8566,7 @@
                 "wis": "10",
                 "cha": "10"
             },
+            "skills": "Stealth +3",
             "abilities": [
                 {
                     "name": "Death Burst.",
@@ -8294,7 +8603,8 @@
             "challenge": "1/2 (100 XP)",
             "damage_immunities": "fire, poison",
             "condition_immunities": "poisoned",
-            "damage_vulnerabilities": "cold"
+            "damage_vulnerabilities": "cold",
+            "senses": "darkvision 60 ft., passive Perception 10"
         },
         {
             "name": "Steam Mephit",
@@ -8343,7 +8653,8 @@
             ],
             "challenge": "1/4 (50 XP)",
             "damage_immunities": "fire, poison",
-            "condition_immunities": "poisoned"
+            "condition_immunities": "poisoned",
+            "senses": "darkvision 60 ft., passive Perception 10"
         },
         {
             "name": "Merfolk",
@@ -8361,6 +8672,7 @@
                 "wis": "11",
                 "cha": "12"
             },
+            "skills": "Perception +2",
             "abilities": [
                 {
                     "name": "Amphibious.",
@@ -8378,7 +8690,8 @@
                     "reach": "5 ft."
                 }
             ],
-            "challenge": "1/8 (25 XP)"
+            "challenge": "1/8 (25 XP)",
+            "senses": "passive Perception 12"
         },
         {
             "name": "Merrow",
@@ -8431,7 +8744,8 @@
                     "reach": "5 ft."
                 }
             ],
-            "challenge": "2 (450 XP)"
+            "challenge": "2 (450 XP)",
+            "senses": "darkvision 60 ft., passive Perception 10"
         },
         {
             "name": "Mimic",
@@ -8449,6 +8763,7 @@
                 "wis": "13",
                 "cha": "8"
             },
+            "skills": "Stealth +5",
             "abilities": [
                 {
                     "name": "Shapechanger.",
@@ -8489,7 +8804,8 @@
             ],
             "challenge": "2 (450 XP)",
             "damage_immunities": "acid",
-            "condition_immunities": "prone"
+            "condition_immunities": "prone",
+            "senses": "darkvision 60 ft., passive Perception 11"
         },
         {
             "name": "Minotaur",
@@ -8507,6 +8823,7 @@
                 "wis": "16",
                 "cha": "9"
             },
+            "skills": "Perception +7",
             "abilities": [
                 {
                     "name": "Charge.",
@@ -8539,7 +8856,8 @@
                     "reach": "5 ft."
                 }
             ],
-            "challenge": "3 (700 XP)"
+            "challenge": "3 (700 XP)",
+            "senses": "darkvision 60 ft., passive Perception 17"
         },
         {
             "name": "Mummy",
@@ -8557,6 +8875,7 @@
                 "wis": "10",
                 "cha": "12"
             },
+            "saving_throws": "Wis +2",
             "abilities": [],
             "actions": [
                 {
@@ -8584,7 +8903,8 @@
             "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks",
             "damage_immunities": "necrotic, poison",
             "condition_immunities": "charmed, exhaustion, frightened, paralyzed, poisoned",
-            "damage_vulnerabilities": "fire"
+            "damage_vulnerabilities": "fire",
+            "senses": "darkvision 60 ft., passive Perception 10"
         },
         {
             "name": "Mummy Lord",
@@ -8602,6 +8922,8 @@
                 "wis": "18",
                 "cha": "16"
             },
+            "saving_throws": "Con +8, Int +5, Wis +9, Cha +8",
+            "skills": "History +5, Religion +5",
             "abilities": [
                 {
                     "name": "Magic Resistance.",
@@ -8663,7 +8985,8 @@
             "challenge": "15 (13,000 XP)",
             "damage_immunities": "necrotic, poison; bludgeoning, piercing, and slashing from nonmagical attacks",
             "condition_immunities": "charmed, exhaustion, frightened, paralyzed, poisoned",
-            "damage_vulnerabilities": "fire"
+            "damage_vulnerabilities": "fire",
+            "senses": "darkvision 60 ft., passive Perception 14"
         },
         {
             "name": "Guardian Naga",
@@ -8681,6 +9004,7 @@
                 "wis": "19",
                 "cha": "18"
             },
+            "saving_throws": "Dex +8, Con +7, Int +7, Wis +8, Cha +8",
             "abilities": [
                 {
                     "name": "Rejuvenation.",
@@ -8713,7 +9037,8 @@
             ],
             "challenge": "10 (5,900 XP)",
             "damage_immunities": "poison",
-            "condition_immunities": "charmed, poisoned"
+            "condition_immunities": "charmed, poisoned",
+            "senses": "darkvision 60 ft., passive Perception 14"
         },
         {
             "name": "Spirit Naga",
@@ -8731,6 +9056,7 @@
                 "wis": "15",
                 "cha": "16"
             },
+            "saving_throws": "Dex +6, Con +5, Wis +5, Cha +6",
             "abilities": [
                 {
                     "name": "Rejuvenation.",
@@ -8754,7 +9080,8 @@
             ],
             "challenge": "8 (3,900 XP)",
             "damage_immunities": "poison",
-            "condition_immunities": "charmed, poisoned"
+            "condition_immunities": "charmed, poisoned",
+            "senses": "darkvision 60 ft., passive Perception 12"
         },
         {
             "name": "Nightmare",
@@ -8799,7 +9126,8 @@
                 }
             ],
             "challenge": "3 (700 XP)",
-            "damage_immunities": "fire"
+            "damage_immunities": "fire",
+            "senses": "passive Perception 11"
         },
         {
             "name": "Ogre",
@@ -8837,7 +9165,8 @@
                     "reach": "5 ft."
                 }
             ],
-            "challenge": "2 (450 XP)"
+            "challenge": "2 (450 XP)",
+            "senses": "darkvision 60 ft., passive Perception 8"
         },
         {
             "name": "Oni",
@@ -8855,6 +9184,8 @@
                 "wis": "12",
                 "cha": "15"
             },
+            "saving_throws": "Dex +3, Con +6, Wis +4, Cha +5",
+            "skills": "Arcana +5, Deception +8, Perception +4",
             "abilities": [
                 {
                     "name": "Innate Spellcasting.",
@@ -8895,7 +9226,8 @@
                     "description": "The oni magically polymorphs into a Small or Medium humanoid, into a Large giant, or back into its true form. Other than its size, its statistics are the same in each form. The only equipment that is transformed is its glaive, which shrinks so that it can be wielded in humanoid form. If the oni dies, it reverts to its true form, and its glaive reverts to its normal size."
                 }
             ],
-            "challenge": "7 (2,900 XP)"
+            "challenge": "7 (2,900 XP)",
+            "senses": "darkvision 60 ft., passive Perception 14"
         },
         {
             "name": "Black Pudding",
@@ -8945,7 +9277,8 @@
             ],
             "challenge": "4 (1,100 XP)",
             "damage_immunities": "acid, cold, lightning, slashing",
-            "condition_immunities": "blinded, charmed, deafened, exhaustion, frightened, prone"
+            "condition_immunities": "blinded, charmed, deafened, exhaustion, frightened, prone",
+            "senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 8"
         },
         {
             "name": "Gelatinous Cube",
@@ -8989,7 +9322,8 @@
                 }
             ],
             "challenge": "2 (450 XP)",
-            "condition_immunities": "blinded, charmed, deafened, exhaustion, frightened, prone"
+            "condition_immunities": "blinded, charmed, deafened, exhaustion, frightened, prone",
+            "senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 8"
         },
         {
             "name": "Gray Ooze",
@@ -9007,6 +9341,7 @@
                 "wis": "6",
                 "cha": "2"
             },
+            "skills": "Stealth +2",
             "abilities": [
                 {
                     "name": "Amorphous.",
@@ -9035,7 +9370,8 @@
             ],
             "challenge": "1/2 (100 XP)",
             "damage_resistances": "acid, cold, fire",
-            "condition_immunities": "blinded, charmed, deafened, exhaustion, frightened, prone"
+            "condition_immunities": "blinded, charmed, deafened, exhaustion, frightened, prone",
+            "senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 8"
         },
         {
             "name": "Ochre Jelly",
@@ -9082,7 +9418,8 @@
             "challenge": "2 (450 XP)",
             "damage_resistances": "acid",
             "damage_immunities": "lightning, slashing",
-            "condition_immunities": "blinded, charmed, deafened, exhaustion, frightened, prone"
+            "condition_immunities": "blinded, charmed, deafened, exhaustion, frightened, prone",
+            "senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 8"
         },
         {
             "name": "Orc",
@@ -9100,6 +9437,7 @@
                 "wis": "11",
                 "cha": "10"
             },
+            "skills": "Intimidation +2",
             "abilities": [
                 {
                     "name": "Aggressive.",
@@ -9123,7 +9461,8 @@
                     "reach": "5 ft."
                 }
             ],
-            "challenge": "1/2 (100 XP)"
+            "challenge": "1/2 (100 XP)",
+            "senses": "darkvision 60 ft., passive Perception 10"
         },
         {
             "name": "Otyugh",
@@ -9141,6 +9480,7 @@
                 "wis": "13",
                 "cha": "6"
             },
+            "saving_throws": "Con +7",
             "abilities": [
                 {
                     "name": "Limited Telepathy.",
@@ -9177,7 +9517,8 @@
                     "saving_throw": "DC 14 Constitution"
                 }
             ],
-            "challenge": "5 (1,800 XP)"
+            "challenge": "5 (1,800 XP)",
+            "senses": "darkvision 120 ft., passive Perception 11"
         },
         {
             "name": "Owlbear",
@@ -9195,6 +9536,7 @@
                 "wis": "12",
                 "cha": "7"
             },
+            "skills": "Perception +3",
             "abilities": [
                 {
                     "name": "Keen Sight and Smell.",
@@ -9223,7 +9565,8 @@
                     "reach": "5 ft."
                 }
             ],
-            "challenge": "3 (700 XP)"
+            "challenge": "3 (700 XP)",
+            "senses": "darkvision 60 ft., passive Perception 13"
         },
         {
             "name": "Pegasus",
@@ -9241,6 +9584,8 @@
                 "wis": "15",
                 "cha": "13"
             },
+            "saving_throws": "Dex +4, Wis +4, Cha +3",
+            "skills": "Perception +6",
             "abilities": [],
             "actions": [
                 {
@@ -9252,7 +9597,8 @@
                     "reach": "5 ft."
                 }
             ],
-            "challenge": "2 (450 XP)"
+            "challenge": "2 (450 XP)",
+            "senses": "passive Perception 16"
         },
         {
             "name": "Pseudodragon",
@@ -9270,6 +9616,7 @@
                 "wis": "12",
                 "cha": "10"
             },
+            "skills": "Perception +3, Stealth +4",
             "abilities": [
                 {
                     "name": "Keen Senses.",
@@ -9303,7 +9650,8 @@
                     "saving_throw": "DC 11 Constitution"
                 }
             ],
-            "challenge": "1/4 (50 XP)"
+            "challenge": "1/4 (50 XP)",
+            "senses": "blindsight 10 ft., darkvision 60 ft., passive Perception 13"
         },
         {
             "name": "Purple Worm",
@@ -9321,6 +9669,7 @@
                 "wis": "8",
                 "cha": "4"
             },
+            "saving_throws": "Con +11, Wis +4",
             "abilities": [
                 {
                     "name": "Tunneler",
@@ -9351,7 +9700,8 @@
                     "saving_throw": "DC 19 Constitution"
                 }
             ],
-            "challenge": "15 (13,000 XP)"
+            "challenge": "15 (13,000 XP)",
+            "senses": "blindsight 30 ft., tremorsense 60 ft., passive Perception 9"
         },
         {
             "name": "Rakshasa",
@@ -9369,6 +9719,7 @@
                 "wis": "16",
                 "cha": "20"
             },
+            "skills": "Deception +10, Insight +8",
             "abilities": [
                 {
                     "name": "Limited Magic Immunity.",
@@ -9395,7 +9746,8 @@
             ],
             "challenge": "13 (10,000 XP)",
             "damage_immunities": "bludgeoning, piercing, and slashing from nonmagical attacks",
-            "damage_vulnerabilities": "piercing from magic weapons wielded by good creatures"
+            "damage_vulnerabilities": "piercing from magic weapons wielded by good creatures",
+            "senses": "darkvision 60 ft., passive Perception 13"
         },
         {
             "name": "Remorhaz",
@@ -9437,7 +9789,8 @@
                 }
             ],
             "challenge": "11 (7,200 XP)",
-            "damage_immunities": "cold, fire"
+            "damage_immunities": "cold, fire",
+            "senses": "darkvision 60 ft., tremorsense 60 ft., passive Perception 10"
         },
         {
             "name": "Roc",
@@ -9455,6 +9808,8 @@
                 "wis": "10",
                 "cha": "9"
             },
+            "saving_throws": "Dex +4, Con +9, Wis +4, Cha +3",
+            "skills": "Perception +4",
             "abilities": [
                 {
                     "name": "Keen Sight.",
@@ -9483,7 +9838,8 @@
                     "reach": "5 ft."
                 }
             ],
-            "challenge": "11 (7,200 XP)"
+            "challenge": "11 (7,200 XP)",
+            "senses": "passive Perception 14"
         },
         {
             "name": "Roper",
@@ -9501,6 +9857,7 @@
                 "wis": "16",
                 "cha": "6"
             },
+            "skills": "Perception +6, Stealth +5",
             "abilities": [
                 {
                     "name": "False Appearance.",
@@ -9532,7 +9889,8 @@
                 }
             ],
             "actions": [],
-            "challenge": "5 (1,800 XP)"
+            "challenge": "5 (1,800 XP)",
+            "senses": "darkvision 60 ft., passive Perception 16"
         },
         {
             "name": "Rust Monster",
@@ -9575,7 +9933,8 @@
                     "saving_throw": "DC 11 Dexterity"
                 }
             ],
-            "challenge": "1/2 (100 XP)"
+            "challenge": "1/2 (100 XP)",
+            "senses": "darkvision 60 ft., passive Perception 11"
         },
         {
             "name": "Sahuagin",
@@ -9593,6 +9952,7 @@
                 "wis": "13",
                 "cha": "9"
             },
+            "skills": "Perception +5",
             "abilities": [
                 {
                     "name": "Blood Frenzy.",
@@ -9636,7 +9996,8 @@
                     "reach": "5 ft."
                 }
             ],
-            "challenge": "1/2 (100 XP)"
+            "challenge": "1/2 (100 XP)",
+            "senses": "darkvision 120 ft., passive Perception 15"
         },
         {
             "name": "Salamander",
@@ -9709,6 +10070,7 @@
                 "wis": "10",
                 "cha": "14"
             },
+            "skills": "Perception +2, Performance +6, Stealth +5",
             "abilities": [
                 {
                     "name": "Magic Resistance.",
@@ -9759,6 +10121,7 @@
                 "wis": "10",
                 "cha": "8"
             },
+            "skills": "Stealth +4 (+6 in dim light or darkness)",
             "abilities": [
                 {
                     "name": "Amorphous.",
@@ -9787,7 +10150,8 @@
             "damage_resistances": "acid,cold, fire, lightning, thunder; bludgeoning, piercing, and slashing from nonmagical attacks",
             "damage_immunities": "necrotic, poison",
             "condition_immunities": "exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained",
-            "damage_vulnerabilities": "radiant"
+            "damage_vulnerabilities": "radiant",
+            "senses": "darkvision 60 ft., passive Perception 10"
         },
         {
             "name": "Shambling Mound",
@@ -9805,6 +10169,7 @@
                 "wis": "10",
                 "cha": "5"
             },
+            "skills": "Stealth +2",
             "abilities": [
                 {
                     "name": "Lightning Absorption",
@@ -9833,7 +10198,8 @@
             "challenge": "5 (1,800 XP)",
             "damage_resistances": "cold, fire",
             "damage_immunities": "lightning",
-            "condition_immunities": "blinded, deafened, exhaustion"
+            "condition_immunities": "blinded, deafened, exhaustion",
+            "senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 10"
         },
         {
             "name": "Shield Guardian",
@@ -9885,7 +10251,8 @@
             ],
             "challenge": "7 (2,900 XP)",
             "damage_immunities": "poison",
-            "condition_immunities": "charmed, exhaustion, frightened, paralyzed, poisoned"
+            "condition_immunities": "charmed, exhaustion, frightened, paralyzed, poisoned",
+            "senses": "blindsight 10 ft., darkvision 60 ft., passive Perception 10"
         },
         {
             "name": "Skeleton",
@@ -9925,7 +10292,8 @@
             "challenge": "1/4 (50 XP)",
             "damage_immunities": "poison",
             "condition_immunities": "exhaustion, poisoned",
-            "damage_vulnerabilities": "bludgeoning"
+            "damage_vulnerabilities": "bludgeoning",
+            "senses": "darkvision 60 ft., passive Perception 9"
         },
         {
             "name": "Minotaur Skeleton",
@@ -9970,7 +10338,8 @@
             "challenge": "2 (450 XP)",
             "damage_immunities": "poison",
             "condition_immunities": "exhaustion, poisoned",
-            "damage_vulnerabilities": "bludgeoning"
+            "damage_vulnerabilities": "bludgeoning",
+            "senses": "darkvision 60 ft., passive Perception 9"
         },
         {
             "name": "Warhorse Skeleton",
@@ -10002,7 +10371,8 @@
             "challenge": "1/2 (100 XP)",
             "damage_immunities": "poison",
             "condition_immunities": "exhaustion, poisoned",
-            "damage_vulnerabilities": "bludgeoning"
+            "damage_vulnerabilities": "bludgeoning",
+            "senses": "darkvision 60 ft., passive Perception 9"
         },
         {
             "name": "Specter",
@@ -10044,7 +10414,8 @@
             "challenge": "1 (200 XP)",
             "damage_resistances": "acid, cold, fire, lightning, thunder; bludgeoning, piercing, and slashing from nonmagical attacks",
             "damage_immunities": "necrotic, poison",
-            "condition_immunities": "charmed, exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious"
+            "condition_immunities": "charmed, exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious",
+            "senses": "darkvision 60 ft., passive Perception 10"
         },
         {
             "name": "Androsphinx",
@@ -10062,6 +10433,8 @@
                 "wis": "18",
                 "cha": "23"
             },
+            "saving_throws": "Dex +6, Con +11, Int +9, Wis +10",
+            "skills": "Arcana +9, Perception +10, Religion +15",
             "abilities": [
                 {
                     "name": "Inscrutable.",
@@ -10123,7 +10496,8 @@
             ],
             "challenge": "17 (18,000 XP)",
             "damage_immunities": "psychic; bludgeoning, piercing, and slashing from nonmagical attacks",
-            "condition_immunities": "charmed, frightened"
+            "condition_immunities": "charmed, frightened",
+            "senses": "truesight 120 ft., passive Perception 20"
         },
         {
             "name": "Gynosphinx",
@@ -10141,6 +10515,7 @@
                 "wis": "18",
                 "cha": "18"
             },
+            "skills": "Arcana +12, History +12, Perception +8, Religion +8",
             "abilities": [
                 {
                     "name": "Inscrutable.",
@@ -10184,7 +10559,8 @@
             "challenge": "11 (7,200 XP)",
             "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks",
             "damage_immunities": "psychic",
-            "condition_immunities": "charmed, frightened"
+            "condition_immunities": "charmed, frightened",
+            "senses": "truesight 120 ft., passive Perception 18"
         },
         {
             "name": "Sprite",
@@ -10202,6 +10578,7 @@
                 "wis": "13",
                 "cha": "11"
             },
+            "skills": "Perception +3, Stealth +8",
             "abilities": [
                 {
                     "name": "Longsword.",
@@ -10221,7 +10598,8 @@
                 }
             ],
             "actions": [],
-            "challenge": "1/4 (50 XP)"
+            "challenge": "1/4 (50 XP)",
+            "senses": "passive Perception 13"
         },
         {
             "name": "Stirge",
@@ -10250,7 +10628,8 @@
                     "reach": "5 ft."
                 }
             ],
-            "challenge": "1/8 (25 XP)"
+            "challenge": "1/8 (25 XP)",
+            "senses": "darkvision 60 ft., passive Perception 9"
         },
         {
             "name": "Succubus/Incubus",
@@ -10268,6 +10647,7 @@
                 "wis": "12",
                 "cha": "20"
             },
+            "skills": "Deception +9, Insight +5, Perception +5, Persuasion +9, Stealth +7",
             "abilities": [
                 {
                     "name": "Telepathic Bond.",
@@ -10305,7 +10685,8 @@
                 }
             ],
             "challenge": "4 (1,100 XP)",
-            "damage_resistances": "cold, fire, lightning, poison; bludgeoning, piercing, and slashing from nonmagical attacks"
+            "damage_resistances": "cold, fire, lightning, poison; bludgeoning, piercing, and slashing from nonmagical attacks",
+            "senses": "darkvision 60 ft., passive Perception 15"
         },
         {
             "name": "Tarrasque",
@@ -10323,6 +10704,7 @@
                 "wis": "11",
                 "cha": "11"
             },
+            "saving_throws": "Int +5, Wis +9, Cha +9",
             "abilities": [
                 {
                     "name": "Legendary Resistance (3/Day).",
@@ -10404,7 +10786,8 @@
             ],
             "challenge": "30 (155,000 XP)",
             "damage_immunities": "fire, poison; bludgeoning, piercing, and slashing from nonmagical attacks",
-            "condition_immunities": "charmed, frightened, paralyzed, poisoned"
+            "condition_immunities": "charmed, frightened, paralyzed, poisoned",
+            "senses": "blindsight 120 ft., passive Perception 10"
         },
         {
             "name": "Treant",
@@ -10460,7 +10843,8 @@
             ],
             "challenge": "9 (5,000 XP)",
             "damage_resistances": "bludgeoning, piercing",
-            "damage_vulnerabilities": "fire"
+            "damage_vulnerabilities": "fire",
+            "senses": "passive Perception 13"
         },
         {
             "name": "Troll",
@@ -10478,6 +10862,7 @@
                 "wis": "9",
                 "cha": "7"
             },
+            "skills": "Perception +2",
             "abilities": [
                 {
                     "name": "Keen Smell.",
@@ -10510,7 +10895,8 @@
                     "reach": "5 ft."
                 }
             ],
-            "challenge": "5 (1,800 XP)"
+            "challenge": "5 (1,800 XP)",
+            "senses": "darkvision 60 ft., passive Perception 12"
         },
         {
             "name": "Unicorn",
@@ -10590,7 +10976,8 @@
             ],
             "challenge": "5 (1,800 XP)",
             "damage_immunities": "poison",
-            "condition_immunities": "charmed, paralyzed, poisoned"
+            "condition_immunities": "charmed, paralyzed, poisoned",
+            "senses": "darkvision 60 ft., passive Perception 13"
         },
         {
             "name": "Vampire",
@@ -10608,6 +10995,8 @@
                 "wis": "15",
                 "cha": "18"
             },
+            "saving_throws": "Dex +9, Wis +7, Cha +9",
+            "skills": "Perception +7, Stealth +9",
             "abilities": [
                 {
                     "name": "Shapechanger.",
@@ -10668,7 +11057,8 @@
             ],
             "actions": [],
             "challenge": "13 (10,000 XP)",
-            "damage_resistances": "necrotic; bludgeoning, piercing, and slashing from nonmagical attacks"
+            "damage_resistances": "necrotic; bludgeoning, piercing, and slashing from nonmagical attacks",
+            "senses": "darkvision 120 ft., passive Perception 17"
         },
         {
             "name": "Vampire Spawn",
@@ -10686,6 +11076,8 @@
                 "wis": "10",
                 "cha": "12"
             },
+            "saving_throws": "Dex +6, Wis +3",
+            "skills": "Perception +3, Stealth +6",
             "abilities": [
                 {
                     "name": "Regeneration.",
@@ -10725,7 +11117,8 @@
                 }
             ],
             "challenge": "5 (1,800 XP)",
-            "damage_resistances": "necrotic; bludgeoning, piercing, and slashing from nonmagical attacks"
+            "damage_resistances": "necrotic; bludgeoning, piercing, and slashing from nonmagical attacks",
+            "senses": "darkvision 60 ft., passive Perception 13"
         },
         {
             "name": "Wight",
@@ -10743,6 +11136,7 @@
                 "wis": "13",
                 "cha": "15"
             },
+            "skills": "Perception +3, Stealth +4",
             "abilities": [
                 {
                     "name": "Sunlight Sensitivity.",
@@ -10783,7 +11177,8 @@
             "challenge": "3 (700 XP)",
             "damage_resistances": "necrotic; bludgeoning, piercing, and slashing from nonmagical attacks that aren\u2019t silvered",
             "damage_immunities": "poison",
-            "condition_immunities": "exhaustion, poisoned"
+            "condition_immunities": "exhaustion, poisoned",
+            "senses": "darkvision 60 ft., passive Perception 13"
         },
         {
             "name": "Will--o\u2019--Wisp",
@@ -10836,7 +11231,8 @@
             "challenge": "2 (450 XP)",
             "damage_resistances": "acid, cold, fire, necrotic, thunder; bludgeoning, piercing, and slashing from nonmagical attacks",
             "damage_immunities": "lightning, poison",
-            "condition_immunities": "exhaustion, grappled, paralyzed, poisoned, prone, restrained, unconscious"
+            "condition_immunities": "exhaustion, grappled, paralyzed, poisoned, prone, restrained, unconscious",
+            "senses": "darkvision 120 ft., passive Perception 12"
         },
         {
             "name": "Wraith",
@@ -10882,7 +11278,8 @@
             "challenge": "5 (1,800 XP)",
             "damage_resistances": "acid, cold, fire, lightning, thunder; bludgeoning, piercing, and slashing from nonmagical attacks that aren\u2019t silvered",
             "damage_immunities": "necrotic, poison",
-            "condition_immunities": "charmed, exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained"
+            "condition_immunities": "charmed, exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained",
+            "senses": "darkvision 60 ft., passive Perception 12"
         },
         {
             "name": "Wyvern",
@@ -10900,6 +11297,7 @@
                 "wis": "12",
                 "cha": "6"
             },
+            "skills": "Perception +4",
             "abilities": [],
             "actions": [
                 {
@@ -10932,7 +11330,8 @@
                     "saving_throw": "DC 15 Constitution"
                 }
             ],
-            "challenge": "6 (2,300 XP)"
+            "challenge": "6 (2,300 XP)",
+            "senses": "darkvision 60 ft., passive Perception 14"
         },
         {
             "name": "Xorn",
@@ -10950,6 +11349,7 @@
                 "wis": "10",
                 "cha": "11"
             },
+            "skills": "Perception +6, Stealth +3",
             "abilities": [
                 {
                     "name": "Earth Glide.",
@@ -10987,7 +11387,8 @@
                 }
             ],
             "challenge": "5 (1,800 XP)",
-            "damage_resistances": "piercing and slashing from nonmagical attacks that aren\u2019t adamantine"
+            "damage_resistances": "piercing and slashing from nonmagical attacks that aren\u2019t adamantine",
+            "senses": "darkvision 60 ft., tremorsense 60 ft.,passive Perception 16"
         },
         {
             "name": "Zombie",
@@ -11005,6 +11406,7 @@
                 "wis": "6",
                 "cha": "5"
             },
+            "saving_throws": "Wis +0",
             "abilities": [
                 {
                     "name": "Undead Fortitude.",
@@ -11023,7 +11425,8 @@
             ],
             "challenge": "1/4 (50 XP)",
             "damage_immunities": "poison",
-            "condition_immunities": "poisoned"
+            "condition_immunities": "poisoned",
+            "senses": "darkvision 60 ft., passive Perception 8"
         },
         {
             "name": "Ogre Zombie",
@@ -11041,6 +11444,7 @@
                 "wis": "6",
                 "cha": "5"
             },
+            "saving_throws": "Wis +0",
             "abilities": [
                 {
                     "name": "Undead Fortitude.",
@@ -11059,7 +11463,8 @@
             ],
             "challenge": "2 (450 XP)",
             "damage_immunities": "poison",
-            "condition_immunities": "poisoned"
+            "condition_immunities": "poisoned",
+            "senses": "darkvision 60 ft., passive Perception 8"
         }
     ]
 }
