@@ -1403,7 +1403,8 @@
         {
             "name": "Quasit",
             "size": "Tiny",
-            "type": "fiend (demon, shapechanger)",
+            "type": "fiend",
+			"subtypes":  ["demon", "shapechanger"],
             "alignment": "chaotic evil",
             "armor_class": "13",
             "hit_points": "7 (3d4)",
@@ -1965,7 +1966,8 @@
         {
             "name": "Imp",
             "size": "Tiny",
-            "type": "fiend (devil, shapechanger)",
+            "type": "fiend",
+			"subtypes":  ["devil", "shapechanger"],
             "alignment": "lawful evil",
             "armor_class": "13",
             "hit_points": "10 (3d4 + 3)",
@@ -7999,7 +8001,8 @@
         {
             "name": "Werebear",
             "size": "Medium",
-            "type": "humanoid (human, shapechanger)",
+            "type": "humanoid",
+			"subtypes":  ["human", "shapechanger"],
             "alignment": "neutral good",
             "armor_class": "10 in humanoid form, 11 (natural armor) in bear and hybrid form",
             "hit_points": "135 (18d8 + 54)",
@@ -8057,7 +8060,8 @@
         {
             "name": "Wereboar",
             "size": "Medium",
-            "type": "humanoid (human, shapechanger)",
+            "type": "humanoid",
+			"subtypes":  ["human", "shapechanger"],
             "alignment": "neutral evil",
             "armor_class": "10 in humanoid form, 11 (natural armor) in boar or hybrid form",
             "hit_points": "78 (12d8 + 24)",
@@ -8113,7 +8117,8 @@
         {
             "name": "Wererat",
             "size": "Medium",
-            "type": "humanoid (human, shapechanger)",
+            "type": "humanoid",
+			"subtypes":  ["human", "shapechanger"],
             "alignment": "lawful evil",
             "armor_class": "12",
             "hit_points": "33 (6d8 + 6)",
@@ -8173,7 +8178,8 @@
         {
             "name": "Weretiger",
             "size": "Medium",
-            "type": "humanoid (human, shapechanger)",
+            "type": "humanoid",
+			"subtypes":  ["human", "shapechanger"],
             "alignment": "neutral",
             "armor_class": "12",
             "hit_points": "120 (16d8 + 48)",
@@ -8249,7 +8255,8 @@
         {
             "name": "Werewolf",
             "size": "Medium",
-            "type": "humanoid (human, shapechanger)",
+            "type": "humanoid",
+			"subtypes":  ["human", "shapechanger"],
             "alignment": "chaotic evil",
             "armor_class": "11 in humanoid form, 12 (natural armor) in wolf or hybrid form",
             "hit_points": "58 (9d8 + 18)",
